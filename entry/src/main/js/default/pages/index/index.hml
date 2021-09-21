@@ -1,5 +1,37 @@
-<div class="container">
-    <text class="title">
-        {{ $t('strings.hello') }} {{ title }}
-    </text>
-</div>
+<stack class="stack">
+    <image src='/common/images/Wallpaper.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <list class="showList">
+            <list-item class="showListItem" onclick="startDeviceInfo">
+                <text>
+                    Device Info
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startSensors">
+                <text>
+                    Sensors
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startGeographicLocation">
+                <text>
+                    Geographic Location
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startBattery">
+                <text>
+                    Battery Level - Info
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startBrightness">
+                <text>
+                    Screen Brightness
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startVibration">
+                <text>
+                    Vibration
+                </text>
+            </list-item>
+        </list>
+    </div>
+</stack>

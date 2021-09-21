@@ -45,7 +45,21 @@
     "js": [
       {
         "pages": [
-          "pages/index/index"
+          "pages/index/index",
+          "pages/sensors/sensors",
+          "pages/deviceinfo/deviceinfo",
+          "pages/geographiclocation/geographiclocation",
+          "pages/battery/battery",
+          "pages/brightness/brightness",
+          "pages/vibration/vibration",
+          "pages/heartrate/heartrate",
+          "pages/light/light",
+          "pages/barometer/barometer",
+          "pages/stepcounter/stepcounter",
+          "pages/deviceorientation/deviceorientation",
+          "pages/compass/compass",
+          "pages/accelerometer/accelerometer",
+          "pages/gyroscope/gyroscope"
         ],
         "name": "default",
         "window": {

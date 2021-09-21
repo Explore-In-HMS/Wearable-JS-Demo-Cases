@@ -1,0 +1,47 @@
+<stack class="stack">
+    <image src='/common/images/Wallpaper.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <list class="showList">
+            <list-item class="showListItem" onclick="startHeartRate">
+                <text>
+                    Heart Rate
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startLight">
+                <text>
+                    Light
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startBarometer">
+                <text>
+                    Barometer
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startCompass">
+                <text>
+                    Compass
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startStep">
+                <text>
+                    Step Counter
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startDeviceOrientation">
+                <text>
+                    Device Orientation
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startAccelerometer">
+                <text>
+                    Accelerometer
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startGyroscope">
+                <text>
+                    Gyroscope
+                </text>
+            </list-item>
+        </list>
+    </div>
+</stack>
