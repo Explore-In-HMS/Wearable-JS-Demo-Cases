@@ -3,32 +3,32 @@
     <div class="container" onswipe="touchMove">
         <list class="showList">
             <list-item class="showListItem" onclick="startDeviceInfo">
-                <text>
+                <text class="textProp">
                     Device Info
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startSensors">
-                <text>
+                <text class="textProp">
                     Sensors
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startGeographicLocation">
-                <text>
+                <text class="textProp">
                     Geographic Location
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startBattery">
-                <text>
+                <text class="textProp">
                     Battery Level - Info
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startBrightness">
-                <text>
+                <text class="textProp">
                     Screen Brightness
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startVibration">
-                <text>
+                <text class="textProp">
                     Vibration
                 </text>
             </list-item>

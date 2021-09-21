@@ -3,42 +3,42 @@
     <div class="container" onswipe="touchMove">
         <list class="showList">
             <list-item class="showListItem" onclick="startHeartRate">
-                <text>
+                <text class="textProp">
                     Heart Rate
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startLight">
-                <text>
+                <text class="textProp">
                     Light
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startBarometer">
-                <text>
+                <text class="textProp">
                     Barometer
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startCompass">
-                <text>
+                <text class="textProp">
                     Compass
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startStep">
-                <text>
+                <text class="textProp">
                     Step Counter
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startDeviceOrientation">
-                <text>
+                <text class="textProp">
                     Device Orientation
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startAccelerometer">
-                <text>
+                <text class="textProp">
                     Accelerometer
                 </text>
             </list-item>
             <list-item class="showListItem" onclick="startGyroscope">
-                <text>
+                <text class="textProp">
                     Gyroscope
                 </text>
             </list-item>
