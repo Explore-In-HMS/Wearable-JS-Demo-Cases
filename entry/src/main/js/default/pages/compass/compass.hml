@@ -1,5 +1,7 @@
-<div class="container">
-    <text class="title">
-        Hello {{ title }}
-    </text>
-</div>
+<stack class="compass-container" >
+    <stack class="compass" style="transform:{{compass_transform}}">
+        <div class="compass" >
+            <image src="/common/compass.png"></image>
+        </div>
+    </stack>
+</stack>
