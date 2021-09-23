@@ -1,0 +1,10 @@
+@import '../../common/style.css';
+
+.image-player {
+    width: 256px;
+    height: 256px;
+}
+.showCompassBtn{
+background-color: blue;
+    text-color: white;
+}

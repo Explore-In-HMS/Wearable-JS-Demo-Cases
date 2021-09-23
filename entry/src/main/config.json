@@ -59,7 +59,8 @@
           "pages/deviceorientation/deviceorientation",
           "pages/compass/compass",
           "pages/accelerometer/accelerometer",
-          "pages/gyroscope/gyroscope"
+          "pages/gyroscope/gyroscope",
+          "pages/compassanimator/compassanimator"
         ],
         "name": "default",
         "window": {

@@ -17,9 +17,9 @@ export default {
         });
     },
     startCompass() {
-        router.replace({
-            uri: 'pages/compass/compass'
-        });
+        router.push ({
+            uri:'pages/compassanimator/compassanimator'
+        })
     },
     startStep() {
         router.replace({

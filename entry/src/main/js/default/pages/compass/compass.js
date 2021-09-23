@@ -1,5 +1,6 @@
 import sensor from '@system.sensor';
 import app from '@system.app';
+import router from '@system.router';
 
 export default {
     data: {
@@ -31,5 +32,14 @@ export default {
                 console.error('compass: subscribe compass fail, code: ' + code + ', data: ' + data);
             },
         });
-    }
+    },
+    touchMove(e) {  // Handle the swipe event.
+
+         if(e.direction == "right")  // Swipe right to exit.
+         {
+             router.replace({
+                 uri: 'pages/compassanimator/compassanimator'
+             })
+         }
+     }
 }
