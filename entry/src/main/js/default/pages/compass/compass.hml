@@ -1,5 +1,4 @@
 <stack class="compass-container" >
-    <image src='/common/images/WallpaperWhite.png' class="background"></image>
     <stack class="compass" style="transform:{{compass_transform}}">
         <div class="compass" >
             <image src="/common/images/compass.png"></image>

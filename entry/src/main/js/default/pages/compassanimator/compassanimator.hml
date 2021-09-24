@@ -1,5 +1,4 @@
-<stack class="stack">
-    <image src='/common/images/WallpaperWhite.png' class="background"></image>
+<stack class="compass-container">
     <div class="container">
         <image-animator class="image-player" ref="animator" images="{{images}}" duration="1s"
                 onclick="handleClick"></image-animator>
