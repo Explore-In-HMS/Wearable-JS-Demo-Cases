@@ -13,17 +13,14 @@
     justify-content: center;
     background-color: whitesmoke;
 }
-.container {
-    background-color: whitesmoke;
-}
 .compass-container {
     display: flex;
     justify-content: center;
     align-items: center;
     left: 0px;
     top: 0px;
-    width: 80%;
-    height: 80%;
+    width: 454px;
+    height: 454px;
     background-color: white;
 }
 .container-location-loading{

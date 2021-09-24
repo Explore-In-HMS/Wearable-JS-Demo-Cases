@@ -4,13 +4,13 @@ apply plugin: 'com.huawei.ohos.decctest'
 ohos {
     signingConfigs {
         debug {
-            storeFile file('C:\\Users\\m00599114\\DevEcoStudioProjects\\WearableJSDemoApp\\auto_debug_5190090000024889177.p12')
-            storePassword '00000018413997293CA376700F716CE2A9CB028825C3B1989FF4738C49334EF7C139188778B5E052'
+            storeFile file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_5190090000024889177.p12')
+            storePassword '0000001823E4A9830D68CBF7FD42A1A9B74F33F1305205AD828B6F11C0DA1F05542DAFEAD0590BA9'
             keyAlias = 'debugKey'
-            keyPassword '00000018A66413AD469A27C807C6BC7C1A38D0AB1CF9BFE8EF035948F20164E926E043E8FF693274'
+            keyPassword '0000001892ECEE81E6E6FE4D6E715980279710A5C2A8165EDAF2ECA095CB45A57A3C48371BC6AAE7'
             signAlg = 'SHA256withECDSA'
-            profile file('C:\\Users\\m00599114\\DevEcoStudioProjects\\WearableJSDemoApp\\auto_debug_turkeyp3_5190090000024889177.p7b')
-            certpath file('C:\\Users\\m00599114\\DevEcoStudioProjects\\WearableJSDemoApp\\auto_debug_5190090000024889177.cer')
+            profile file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_turkeyp3_5190090000024889177.p7b')
+            certpath file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_5190090000024889177.cer')
         }
     }
     compileSdkVersion 5

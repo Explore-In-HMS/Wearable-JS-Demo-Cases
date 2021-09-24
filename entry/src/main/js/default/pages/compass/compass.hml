@@ -1,7 +1,7 @@
-<stack class="compass-container" >
-    <stack class="compass" style="transform:{{compass_transform}}">
+<div class="compass-container" >
+    <div class="compass" style="transform:{{compass_transform}}">
         <div class="compass" >
             <image src="/common/images/compass.png"></image>
         </div>
-    </stack>
-</stack>
+    </div>
+</div>

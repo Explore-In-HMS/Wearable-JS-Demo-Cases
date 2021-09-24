@@ -1,7 +1,7 @@
-<stack class="compass-container">
+<div class="compass-container">
     <div class="container">
         <image-animator class="image-player" ref="animator" images="{{images}}" duration="1s"
                 onclick="handleClick"></image-animator>
         <input class="showCompassBtn" type="button" value="Show Compass" onclick="showCompass"></input>
     </div>
-</stack>
+</div>
