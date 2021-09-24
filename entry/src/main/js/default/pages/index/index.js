@@ -8,7 +8,7 @@ export default {
         });
     },
     startSensors() {
-        router.replace({
+        router.push({
             uri: 'pages/sensors/sensors'
         });
     },

@@ -5,9 +5,9 @@ ohos {
     signingConfigs {
         debug {
             storeFile file('C:\\Users\\m00599114\\DevEcoStudioProjects\\WearableJSDemoApp\\auto_debug_5190090000024889177.p12')
-            storePassword '00000018413997293CA376700F716CE2A9CB028825C3B1989FF4738C49334EF7C139188778B5E052'
+            storePassword '000000184AC0773301017A73FA0E7A06E1B20299050BD9FCB8FAFC7F5046F7A708E14CA8ECE0379D'
             keyAlias = 'debugKey'
-            keyPassword '00000018A66413AD469A27C807C6BC7C1A38D0AB1CF9BFE8EF035948F20164E926E043E8FF693274'
+            keyPassword '0000001899C73351D77094245571BD4C840B839B039184616F85C541AE005147C121ADFFD5B7C6D0'
             signAlg = 'SHA256withECDSA'
             profile file('C:\\Users\\m00599114\\DevEcoStudioProjects\\WearableJSDemoApp\\auto_debug_turkeyp3_5190090000024889177.p7b')
             certpath file('C:\\Users\\m00599114\\DevEcoStudioProjects\\WearableJSDemoApp\\auto_debug_5190090000024889177.cer')

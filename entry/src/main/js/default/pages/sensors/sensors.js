@@ -12,7 +12,7 @@ export default {
         });
     },
     startBarometer() {
-        router.replace({
+        router.push({
             uri: 'pages/barometer/barometer'
         });
     },
