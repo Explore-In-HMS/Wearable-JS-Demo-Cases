@@ -1,5 +1,12 @@
-<div class="container">
+<div class="container" on>
     <text class="title">
-        Hello {{ title }}
+        X {{ X }}
     </text>
+    <text class="title">
+        Y {{ Y }}
+    </text>
+    <text class="title">
+        Z {{ Z }}
+    </text>
+
 </div>
