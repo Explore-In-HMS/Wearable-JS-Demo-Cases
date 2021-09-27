@@ -32,7 +32,7 @@ export default {
         });
     },
     startAccelerometer() {
-        router.replace({
+        router.push ({
             uri: 'pages/accelerometer/accelerometer'
         });
     },
