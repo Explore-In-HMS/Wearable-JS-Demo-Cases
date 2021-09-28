@@ -1,5 +1,10 @@
-<div class="container">
-    <text class="title">
-        Hello {{ title }}
-    </text>
+<div class="container" onswipe="touchMove">
+
+    <list class="step-wrapper">
+        <list-item class="step-item">
+            <text class="step-title">{{stepCount}}</text>
+            <text class="step-title">{{distance}}</text>
+        </list-item>
+    </list>
+
 </div>

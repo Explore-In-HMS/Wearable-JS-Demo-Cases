@@ -22,7 +22,7 @@ export default {
         })
     },
     startStep() {
-        router.replace({
+        router.push({
             uri: 'pages/stepcounter/stepcounter'
         });
     },

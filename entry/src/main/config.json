@@ -28,6 +28,19 @@
       "phone",
       "wearable"
     ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.ACTIVITY_MOTION",
+        "reason": "get_step.data",
+        "usedScene": {
+          "ability":
+          [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
+      }
+    ],
     "distro": {
       "deliveryWithInstall": true,
       "moduleName": "entry",
