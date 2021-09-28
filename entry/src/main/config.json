@@ -12,18 +12,6 @@
     "package": "com.wearableJS.turkeyp3",
     "name": ".MyApplication",
     "mainAbility": "com.wearableJS.turkeyp3.MainAbility",
-    "reqPermissions": [
-      {
-        "name": "ohos.permission.ACCELEROMETER",
-        "reason": "accelerometer",
-        "usedScene": {
-          "ability": [
-            ".MainAbility"
-          ],
-          "when": "inuse"
-        }
-      }
-    ],
     "deviceType": [
       "phone",
       "wearable"
@@ -38,6 +26,16 @@
             "com.wearableJS.turkeyp3.MainAbility"
           ],
           "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.ACCELEROMETER",
+        "reason": "accelerometer",
+        "usedScene": {
+          "ability": [
+            ".MainAbility"
+          ],
+          "when": "inuse"
         }
       }
     ],
