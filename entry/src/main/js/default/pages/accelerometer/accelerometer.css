@@ -1,3 +1,9 @@
+.stack {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: black;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -9,7 +15,7 @@
 }
 
 .title {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     width: 200px;
     height: 100px;

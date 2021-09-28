@@ -1,12 +1,16 @@
-<div class="container" on>
+<stack class="stack">
     <text class="title">
-        X {{ X }}
+        Accelerometer - Coordinates
     </text>
-    <text class="title">
-        Y {{ Y }}
-    </text>
-    <text class="title">
-        Z {{ Z }}
-    </text>
-
-</div>
+    <div class="container">
+        <text class="title">
+            X: {{ X }}
+        </text>
+        <text class="title">
+            Y: {{ Y }}
+        </text>
+        <text class="title">
+            Z: {{ Z }}
+        </text>
+    </div>
+</stack>
