@@ -37,6 +37,16 @@
           ],
           "when": "inuse"
         }
+      },
+      {
+        "name": "ohos.permission.READ_HEALTH_DATA",
+        "reason": "heartRate",
+        "usedScene": {
+          "ability": [
+            ".MainAbility"
+          ],
+          "when": "inuse"
+        }
       }
     ],
     "distro": {

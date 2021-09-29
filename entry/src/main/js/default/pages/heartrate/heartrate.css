@@ -8,9 +8,7 @@
     height: 454px;
 }
 
-.title {
-    font-size: 30px;
-    text-align: center;
-    width: 200px;
-    height: 100px;
+.textProp {
+    font-size: 20px;
 }
+
