@@ -2,12 +2,12 @@ import router from '@system.router';
 
 export default {
     startHeartRate() {
-        router.replace({
+        router.push({
             uri: 'pages/heartrate/heartrate'
         });
     },
     startLight() {
-        router.replace({
+        router.push({
             uri: 'pages/light/light'
         });
     },
