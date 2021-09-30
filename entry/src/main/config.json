@@ -21,8 +21,7 @@
         "name": "ohos.permission.ACTIVITY_MOTION",
         "reason": "get_step.data",
         "usedScene": {
-          "ability":
-          [
+          "ability": [
             "com.wearableJS.turkeyp3.MainAbility"
           ],
           "when": "always"
@@ -93,7 +92,9 @@
           "pages/compass/compass",
           "pages/accelerometer/accelerometer",
           "pages/gyroscope/gyroscope",
-          "pages/compassanimator/compassanimator"
+          "pages/compassanimator/compassanimator",
+          "pages/systemcapabilities/systemcapabilities",
+          "pages/applicationmanagement/applicationmanagement"
         ],
         "name": "default",
         "window": {

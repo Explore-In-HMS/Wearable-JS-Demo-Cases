@@ -1,0 +1,43 @@
+<stack class="stack">
+    <image src='/common/images/Wallpaper.png' class="background"></image>
+    <div class="container" onswipe="touchMove">
+        <list class="showList">
+            <list-item class="showListItem" onclick="startDeviceInfo">
+                <text class="textProp">
+                    Device Info
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startSensors">
+                <text class="textProp">
+                    Sensors
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startGeographicLocation">
+                <text class="textProp">
+                    Geographic Location
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startBattery">
+                <text class="textProp">
+                    Battery Level - Info
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startBrightness">
+                <text class="textProp">
+                    Screen Brightness
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startVibration">
+                <text class="textProp">
+                    Vibration
+                </text>
+            </list-item>
+            <list-item class="showListItem" onclick="startAppManagement">
+                <text class="textProp">
+                    Application Management
+                </text>
+            </list-item>
+
+        </list>
+    </div>
+</stack>

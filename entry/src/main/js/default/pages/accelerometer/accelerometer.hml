@@ -1,4 +1,4 @@
-<stack class="stack">
+<stack class="stack" onswipe="touchMove">
     <text class="title">
         Accelerometer - Coordinates
     </text>

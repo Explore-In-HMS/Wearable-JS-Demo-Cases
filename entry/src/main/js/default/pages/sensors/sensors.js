@@ -40,5 +40,15 @@ export default {
         router.replace({
             uri: 'pages/gyroscope/gyroscope'
         });
+    },
+    touchMove(e) { // Handle the swipe event.
+
+        if (e.direction == "right") // Swipe right to exit.
+        {
+            router.replace({
+                uri: 'pages/systemcapabilities/systemcapabilities'
+            })
+        }
     }
+
 }
