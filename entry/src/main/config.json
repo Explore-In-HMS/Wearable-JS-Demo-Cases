@@ -12,7 +12,22 @@
     "package": "com.wearableJS.turkeyp3",
     "name": ".MyApplication",
     "mainAbility": "com.wearableJS.turkeyp3.MainAbility",
+    "deviceType": [
+      "phone",
+      "wearable"
+    ],
     "reqPermissions": [
+      {
+        "name": "ohos.permission.ACTIVITY_MOTION",
+        "reason": "get_step.data",
+        "usedScene": {
+          "ability":
+          [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
+      },
       {
         "name": "ohos.permission.ACCELEROMETER",
         "reason": "accelerometer",
@@ -22,11 +37,17 @@
           ],
           "when": "inuse"
         }
+      },
+      {
+        "name": "ohos.permission.READ_HEALTH_DATA",
+        "reason": "heartRate",
+        "usedScene": {
+          "ability": [
+            ".MainAbility"
+          ],
+          "when": "inuse"
+        }
       }
-    ],
-    "deviceType": [
-      "phone",
-      "wearable"
     ],
     "distro": {
       "deliveryWithInstall": true,
