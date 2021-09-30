@@ -1,5 +1,12 @@
-<div class="container">
-    <text class="title">
-        Hello {{ title }}
-    </text>
+<div class="container" onswipe="touchMove">
+    <div class="content">
+        <text class="title">
+            Installed ? : {{ installed }}
+        </text>
+        <input id="input" class="input" type="text" value=""  enterkeytype="send"
+               placeholder="Pkg name" onchange="onTextChange"
+               >
+        </input>
+        <input class="button" type="button" value="Check" onclick="buttonClick"></input>
+    </div>
 </div>
