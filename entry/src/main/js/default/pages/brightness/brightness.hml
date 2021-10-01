@@ -1,5 +1,11 @@
-<div class="container">
+<stack class="container">
+    <div class="container">
     <text class="title">
-        Hello {{ title }}
+        Brightness value : {{ brightnessValue }}
     </text>
-</div>
+    </div>
+    <text class="title">
+        Set Brightness
+    </text>
+
+</stack>
