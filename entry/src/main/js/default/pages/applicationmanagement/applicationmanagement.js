@@ -18,7 +18,7 @@ export default {
             error: 'error text'
         });
         if (this.packageNameText != null) {
-            checkIfAppInstalled(this.packageNameText)
+            this.checkIfAppInstalled(this.packageNameText)
         }
     },
     checkIfAppInstalled(packageName){
