@@ -1,0 +1,26 @@
+<div class="container" onswipe="touchMove">
+
+    <list class="location-wrapper">
+        <list-item class="location-item">
+            <text class="location-title">Longitude:</text>
+            <text class="location-title">{{ longitude }}</text>
+        </list-item>
+        <list-item class="location-item">
+            <text class="location-title">Latitude:</text>
+            <text class="location-title">{{ latitude }}</text>
+        </list-item>
+        <list-item class="location-item">
+            <text class="location-title">Altitude:</text>
+            <text class="location-title">{{ altitude }}</text>
+        </list-item>
+        <list-item class="location-item">
+            <text class="location-title">Location accuracy:</text>
+            <text class="location-title">{{ accuracy }}</text>
+        </list-item>
+        <list-item class="location-item">
+            <text class="location-title">Time:</text>
+            <text class="location-title">{{ time }}</text>
+        </list-item>
+    </list>
+
+</div>

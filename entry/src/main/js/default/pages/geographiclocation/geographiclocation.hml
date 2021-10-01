@@ -1,5 +1,22 @@
-<div class="container">
-    <text class="title">
-        Hello {{ title }}
-    </text>
+<div class="container" onswipe="touchMove">
+
+    <list class="location-wrapper">
+        <list-item class="location-item-btn">
+            <input class="showLocationBtn" type="button" value="Show Location Info"
+                   onclick="showLocationInfo"></input>
+        </list-item>
+        <list-item class="location-item-btn">
+            <input class="subscribeLocationBtn" type="button" value="Subscribe Location Info"
+                   onclick="showLocationSubscribe"></input>
+        </list-item>
+        <list-item class="location-item">
+            <text class="location-title">Location Type:</text>
+            <text class="location-title">{{ locationType }}</text>
+        </list-item>
+        <list-item class="location-item">
+            <text class="location-title">Supported CoordTypes:</text>
+            <text class="location-title">{{ coordType }}</text>
+        </list-item>
+    </list>
+
 </div>

@@ -46,6 +46,16 @@
           ],
           "when": "inuse"
         }
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "location",
+        "usedScene": {
+          "ability": [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
       }
     ],
     "distro": {
@@ -94,7 +104,9 @@
           "pages/gyroscope/gyroscope",
           "pages/compassanimator/compassanimator",
           "pages/systemcapabilities/systemcapabilities",
-          "pages/applicationmanagement/applicationmanagement"
+          "pages/applicationmanagement/applicationmanagement",
+          "pages/geographicLocationInfo/geographicLocationInfo",
+          "pages/geographicLocationSubscribe/geographicLocationSubscribe"
         ],
         "name": "default",
         "window": {
