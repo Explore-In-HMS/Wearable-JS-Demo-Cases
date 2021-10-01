@@ -1,11 +1,11 @@
-<stack class="container">
-    <div class="container">
-    <text class="title">
-        Brightness value : {{ brightnessValue }}
-    </text>
+<div class="container" onswipe="touchMove">
+    <div class="content">
+        <text class="title">
+            Brightness value : {{ brightnessValue }}
+        </text>
+        <input id="input" class="input" type="text" value=""  enterkeytype="send"
+               placeholder="Brightness" onchange="onTextChange">
+        </input>
+        <input class="button" type="button" value="Set" onclick="buttonClick"></input>
     </div>
-    <text class="title">
-        Set Brightness
-    </text>
-
-</stack>
+</div>

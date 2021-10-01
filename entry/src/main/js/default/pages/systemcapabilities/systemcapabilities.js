@@ -27,7 +27,7 @@ export default {
         });
     },
     startBrightness() {
-        router.replace({
+        router.push({
             uri: 'pages/brightness/brightness'
         });
     },
