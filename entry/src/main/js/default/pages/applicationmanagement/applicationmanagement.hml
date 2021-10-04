@@ -3,10 +3,7 @@
         <text class="title">
             Installed ? : {{ installed }}
         </text>
-        <input id="input" class="input" type="text" value=""  enterkeytype="send"
-               placeholder="Pkg name" onchange="onTextChange"
-               >
-        </input>
+
         <input class="button" type="button" value="Check" onclick="buttonClick"></input>
     </div>
 </div>

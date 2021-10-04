@@ -1,42 +1,27 @@
 import router from '@system.router';
-import prompt from '@system.prompt'
 import pkg from '@system.package';
+
 export default {
     data: {
-        packageNameText : "--",
-        installed : "--"
+        installed: "--",
     },
-    onTextChange(e){
-        prompt.showToast({
-            message: "value: " + e.value,
-            duration: 3000,
-        });
-        this.packageNameText = e.value;
+    buttonClick() {
+        this.checkIfAppInstalled();
     },
-    buttonClick(e){
-        this.$element("input").showError({
-            error: 'error text'
-        });
-        if (this.packageNameText != null) {
-            this.checkIfAppInstalled(this.packageNameText)
-        }
-    },
-    checkIfAppInstalled(packageName){
-        var installed ;
+    checkIfAppInstalled() {
+        var _this = this;
         pkg.hasInstalled({
-            bundleName: packageName,
-            success: function(data) {
-                installed = "Yes"
+            bundleName: "com.myapps.harmonyappjava",
+            success: function (data) {
+                _this.installed = data ? "Yes" : "No"
                 console.log('package has installed: ' + data);
             },
-            fail: function(data, code) {
-                installed = "No"
+            fail: function (data, code) {
+                _this.installed = "Fail"
                 console.log('query package fail, code: ' + code + ', data: ' + data);
             },
         });
-        return installed;
     },
-
     touchMove(e) { // Handle the swipe event.
 
         if (e.direction == "right") // Swipe right to exit.
@@ -46,5 +31,4 @@ export default {
             })
         }
     }
-
 }
