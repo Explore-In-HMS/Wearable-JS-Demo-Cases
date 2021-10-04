@@ -2,26 +2,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     left: 0px;
     top: 0px;
     width: 454px;
     height: 454px;
 }
+
+.vibration-wrapper {
+    width: 454px;
+    height: 454px;
+    align-items: center;
+}
+
+.vibration-title {
+    width: 454px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.vibration-item-btn {
+    width: 150px;
+    height: 40px;
+    flex-direction: column;
+}
+
 .title {
     width: 200px;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
+
 .shortBtn {
-    margin-top: 25px;
-    width: 100px;
-    height: 30px;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
 }
+
 .longBtn {
-    margin-top: 25px;
-    width: 100px;
-    height: 30px;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
 }
-
-

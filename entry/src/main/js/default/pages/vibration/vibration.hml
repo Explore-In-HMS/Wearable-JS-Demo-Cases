@@ -1,5 +1,13 @@
 <div class="container" onswipe="touchMove">
-    <text class="title">Vibration Action</text>
-    <input class="shortBtn" type="button" value="Short" onclick="shortAction"></input>
-    <input class="longBtn" type="button" value="Long" onclick="longAction"></input>
+    <list class="vibration-wrapper">
+        <list-item class="vibration-item">
+            <text class="vibration-title">Vibration Action</text>
+        </list-item>
+        <list-item class="vibration-item-btn">
+            <input class="shortBtn" type="button" value="Short Vibrate" onclick="shortAction"></input>
+        </list-item>
+        <list-item class="vibration-item-btn">
+            <input class="longBtn" type="button" value="Long Vibrate" onclick="longAction"></input>
+        </list-item>
+    </list>
 </div>
