@@ -7,10 +7,19 @@
     width: 454px;
     height: 454px;
 }
-
-.title {
-    font-size: 30px;
+.battery-wrapper {
+    width: 454px;
+    height: 454px;
+    align-items: center;
+}
+.battery-title {
+    width: 454px;
+    height: 40px;
     text-align: center;
-    width: 200px;
-    height: 100px;
+    font-size: 20px;
+}
+.battery-item {
+    width: 454px;
+    height: 40px;
+    flex-direction: column;
 }

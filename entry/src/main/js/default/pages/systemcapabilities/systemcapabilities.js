@@ -22,7 +22,7 @@ export default {
         });
     },
     startBattery() {
-        router.replace({
+        router.push({
             uri: 'pages/battery/battery'
         });
     },

@@ -1,5 +1,13 @@
-<div class="container">
-    <text class="title">
-        Hello {{ title }}
-    </text>
+<div class="container" onswipe="touchMove">
+    <list class="battery-wrapper">
+        <list-item class="battery-item">
+            <text class="battery-title">Battery Status</text>
+        </list-item>
+        <list-item class="battery-item">
+            <text class="battery-title">Charging: {{ charging }}</text>
+        </list-item>
+        <list-item class="battery-item">
+            <text class="battery-title">Level: {{ level }}</text>
+        </list-item>
+    </list>
 </div>
