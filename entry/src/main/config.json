@@ -56,6 +56,16 @@
           ],
           "when": "inuse"
         }
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "location",
+        "usedScene": {
+          "ability": [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
       }
     ],
     "distro": {

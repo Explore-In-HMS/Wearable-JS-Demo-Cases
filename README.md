@@ -17,3 +17,10 @@ This application shows all the features provided by HarmonyOS for wearable devic
 | **Basic Feature** | **Screenshots** |
 | ------ | ------ |
 | **Animation:** Allows creating and playing animations.| ![Screenshots](screenshots/animator.gif) |
+
+## **System Capabilities**
+
+| **System Capability** | **Screenshots** |
+| ------ | ------ |
+| **Geographic Location:**<br /> -**getLocation** method obtains the geographic location.<br /> -**getLocationType** method obtains the supported location types.<br /> -**subscribe** method listens to the geographical location. If this API is called multiple times, the last call takes effect.<br /> -**unsubscribe** method cancels listening to the geographical location.<br /> -**getSupportedCoordTypes** method obtains coordinate system types supported by the device. | ![Screenshots](screenshots/geoLocation.gif) |
+| **Vibration:** Allows the device to create a vibration effect. The value long indicates long vibration, and short indicates short vibration. | ![Screenshots](screenshots/vibration.png) |

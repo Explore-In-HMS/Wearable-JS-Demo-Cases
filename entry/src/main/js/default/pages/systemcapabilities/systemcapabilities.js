@@ -17,7 +17,7 @@ export default {
         });
     },
     startGeographicLocation() {
-        router.replace({
+        router.push({
             uri: 'pages/geographiclocation/geographiclocation'
         });
     },
