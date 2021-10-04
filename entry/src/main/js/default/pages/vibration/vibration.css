@@ -2,15 +2,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     left: 0px;
     top: 0px;
     width: 454px;
     height: 454px;
 }
-
 .title {
-    font-size: 30px;
-    text-align: center;
     width: 200px;
-    height: 100px;
+    font-size: 20px;
+    text-align: center;
 }
+.shortBtn {
+    margin-top: 25px;
+    width: 100px;
+    height: 30px;
+}
+.longBtn {
+    margin-top: 25px;
+    width: 100px;
+    height: 30px;
+}
+
+

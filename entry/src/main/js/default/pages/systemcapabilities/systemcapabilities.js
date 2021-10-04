@@ -32,7 +32,7 @@ export default {
         });
     },
     startVibration() {
-        router.replace({
+        router.push({
             uri: 'pages/vibration/vibration'
         });
     },

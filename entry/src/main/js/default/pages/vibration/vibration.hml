@@ -1,5 +1,5 @@
-<div class="container">
-    <text class="title">
-        Hello {{ title }}
-    </text>
+<div class="container" onswipe="touchMove">
+    <text class="title">Vibration Action</text>
+    <input class="shortBtn" type="button" value="Short" onclick="shortAction"></input>
+    <input class="longBtn" type="button" value="Long" onclick="longAction"></input>
 </div>
