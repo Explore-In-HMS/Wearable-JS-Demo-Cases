@@ -7,7 +7,7 @@ export default {
         });
     },
     startDeviceInfo() {
-        router.replace({
+        router.push({
             uri: 'pages/deviceinfo/deviceinfo'
         });
     },
