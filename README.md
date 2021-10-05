@@ -17,3 +17,8 @@ This application shows all the features provided by HarmonyOS for wearable devic
 | **Basic Feature** | **Screenshots** |
 | ------ | ------ |
 | **Animation:** Allows creating and playing animations.| ![Screenshots](screenshots/animator.gif) |
+## **System Capabilities**
+
+| **System Capability** | **Screenshots** |
+| ------ | ------ |
+| **Screen Brightness:** Change the screen brightness using three button on the screen. | ![Screenshots](screenshots/screenbrightness.png) |
