@@ -21,7 +21,6 @@ export default {
                 console.log('query package fail, code: ' + code + ', data: ' + data);
             },
         });
-        return installed;
     },
 
     touchMove(e) { // Handle the swipe event.

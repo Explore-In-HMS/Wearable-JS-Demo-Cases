@@ -17,3 +17,9 @@ This application shows all the features provided by HarmonyOS for wearable devic
 | **Basic Feature** | **Screenshots** |
 | ------ | ------ |
 | **Animation:** Allows creating and playing animations.| ![Screenshots](screenshots/animator.gif) |
+
+## **System Capability**
+
+| **System Capability** | **Screenshots** |
+| ------ | ------ |
+| **Application Management:**<br /> Check if the app installed on the device using  **hasInstalled** API. | ![Screenshots](screenshots/applicationmanagement.png) |
