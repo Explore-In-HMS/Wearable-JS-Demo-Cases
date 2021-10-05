@@ -12,14 +12,14 @@
     height: 454px;
     align-items: center;
 }
+.battery-item {
+    width: 454px;
+    height: 120px;
+    flex-direction: column;
+}
 .battery-title {
     width: 454px;
     height: 40px;
     text-align: center;
     font-size: 20px;
-}
-.battery-item {
-    width: 454px;
-    height: 40px;
-    flex-direction: column;
 }
