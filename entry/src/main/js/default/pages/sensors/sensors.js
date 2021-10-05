@@ -18,7 +18,7 @@ export default {
     },
     startCompass() {
         router.push ({
-            uri:'pages/compassanimator/compassanimator'
+            uri:'pages/compass/compass'
         })
     },
     startStep() {

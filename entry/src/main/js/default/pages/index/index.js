@@ -13,6 +13,11 @@ export default {
             uri: 'pages/systemcapabilities/systemcapabilities'
         });
     },
+    startBasicFeatures(){
+        router.push({
+            uri: 'pages/basicFeatures/basicFeatures'
+        });
+    },
     appExit(){  // Exit the application.
         app.terminate();
     }

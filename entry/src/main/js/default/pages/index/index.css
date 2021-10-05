@@ -1,14 +1,11 @@
-@import '../../common/style.css';
 .container {
-    flex-direction: column;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.title {
-    font-size: 40px;
-    color: #000000;
-    opacity: 0.9;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
 }
 
 @media screen and (device-type: tablet) and (orientation: landscape) {
@@ -18,33 +15,24 @@
 }
 
 @media screen and (device-type: wearable) {
-    .title {
-        font-size: 28px;
-        color: #FFFFFF;
-    }
 
     .showList {
-        background-color: transparent;
-        flex-direction: column;
         width: 454px;
-        height: 400px;
-    }
-    .showListItem {
-        background-color: transparent;
-        flex-direction: column;
+        height: 454px;
         align-items: center;
+    }
+
+    .showListItem {
         width: 454px;
-        height: 50px;
-        color: red;
+        height: 40px;
+        flex-direction: column;
     }
 
     .textProp {
+        width: 454px;
+        height: 40px;
+        text-align: center;
         font-size: 20px;
-    }
-
-    .btn {
-        width: 200px;
-        height: 50px;
     }
 
 }

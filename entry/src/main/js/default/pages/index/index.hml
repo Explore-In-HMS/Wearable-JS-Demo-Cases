@@ -1,12 +1,11 @@
-<stack class="stack">
-    <image src='/common/images/Wallpaper.png' class="background"></image>
-    <div class="container" onswipe="touchMove">
-        <list class="showList">
-            <list-item class="showListItem" onclick="startSystemCapabilities">
-                <text class="textProp">
-                    System Capabilities
-                </text>
-            </list-item>
-        </list>
-    </div>
-</stack>
+<div class="container" onswipe="touchMove">
+    <list class="showList">
+        <list-item class="showListItem" onclick="startSystemCapabilities">
+            <text class="textProp">System Capabilities</text>
+        </list-item>
+        <list-item class="showListItem" onclick="startBasicFeatures">
+            <text class="textProp">Basic Features</text>
+        </list-item>
+    </list>
+</div>
+

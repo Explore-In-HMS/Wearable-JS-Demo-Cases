@@ -20,17 +20,12 @@ export default {
             animator.pause();
         }
     },
-    showCompass() {
-        router.push({
-            uri: 'pages/compass/compass'
-        })
-    },
     touchMove(e) {  // Handle the swipe event.
 
         if(e.direction == "right")  // Swipe right to exit.
         {
             router.replace({
-                uri: 'pages/sensors/sensors'
+                uri: 'pages/basicFeatures/basicFeatures'
             })
         }
     }

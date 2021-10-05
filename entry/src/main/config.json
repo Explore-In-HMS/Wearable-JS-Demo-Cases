@@ -114,7 +114,8 @@
           "pages/gyroscope/gyroscope",
           "pages/compassanimator/compassanimator",
           "pages/systemcapabilities/systemcapabilities",
-          "pages/applicationmanagement/applicationmanagement"
+          "pages/applicationmanagement/applicationmanagement",
+          "pages/basicFeatures/basicFeatures"
         ],
         "name": "default",
         "window": {

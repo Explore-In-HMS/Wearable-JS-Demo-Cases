@@ -1,0 +1,24 @@
+<div class="container" onswipe="touchMove">
+    <list class="showList">
+        <list-item class="showListItem" onclick="startAnimation">
+            <text class="textProp">
+                Animation
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startPopupWindow">
+            <text class="textProp">
+                Pop-up Window
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startTimer">
+            <text class="textProp">
+                Timer
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startApplicationConfiguration">
+            <text class="textPropAppConf">
+                Application Configuration
+            </text>
+        </list-item>
+    </list>
+</div>

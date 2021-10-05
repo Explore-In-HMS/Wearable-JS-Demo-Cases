@@ -1,47 +1,44 @@
-<stack class="stack">
-    <image src='/common/images/Wallpaper.png' class="background"></image>
-    <div class="container" onswipe="touchMove">
-        <list class="showList">
-            <list-item class="showListItem" onclick="startHeartRate">
-                <text class="textProp">
-                    Heart Rate
-                </text>
-            </list-item>
-            <list-item class="showListItem" onclick="startLight">
-                <text class="textProp">
-                    Light
-                </text>
-            </list-item>
-            <list-item class="showListItem" onclick="startBarometer">
-                <text class="textProp">
-                    Barometer
-                </text>
-            </list-item>
-            <list-item class="showListItem" onclick="startCompass">
-                <text class="textProp">
-                    Compass
-                </text>
-            </list-item>
-            <list-item class="showListItem" onclick="startStep">
-                <text class="textProp">
-                    Step Counter
-                </text>
-            </list-item>
-            <list-item class="showListItem" onclick="startDeviceOrientation">
-                <text class="textProp">
-                    Device Orientation
-                </text>
-            </list-item>
-            <list-item class="showListItem" onclick="startAccelerometer">
-                <text class="textProp">
-                    Accelerometer
-                </text>
-            </list-item>
-            <list-item class="showListItem" onclick="startGyroscope">
-                <text class="textProp">
-                    Gyroscope
-                </text>
-            </list-item>
-        </list>
-    </div>
-</stack>
+<div class="container" onswipe="touchMove">
+    <list class="showList">
+        <list-item class="showListItem" onclick="startHeartRate">
+            <text class="textProp">
+                Heart Rate
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startLight">
+            <text class="textProp">
+                Light
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startBarometer">
+            <text class="textProp">
+                Barometer
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startCompass">
+            <text class="textProp">
+                Compass
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startStep">
+            <text class="textProp">
+                Step Counter
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startDeviceOrientation">
+            <text class="textProp">
+                Device Orientation
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startAccelerometer">
+            <text class="textProp">
+                Accelerometer
+            </text>
+        </list-item>
+        <list-item class="showListItem" onclick="startGyroscope">
+            <text class="textProp">
+                Gyroscope
+            </text>
+        </list-item>
+    </list>
+</div>
