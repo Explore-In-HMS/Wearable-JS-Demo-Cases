@@ -26,3 +26,4 @@ This application shows all the features provided by HarmonyOS for wearable devic
 | **Vibration:** Allows the device to create a vibration effect. The value long indicates long vibration, and short indicates short vibration. | ![Screenshots](screenshots/vibration.png) |
 | **Battery Level:** Obtains the current charging state and battery level of the device. **Charging** indicates whether the battery is being charged. **Level** indicates the current battery level, which ranges from 0.00 to 1.00.| ![Screenshots](screenshots/battery.png) |
 | **Application Management:**<br /> Check if the app installed on the device using  **hasInstalled** API. | ![Screenshots](screenshots/applicationmanagement.png) |
+| **Device Information:** Shows detailed information of the device. | ![Screenshots](screenshots/deviceinfo.png) |
