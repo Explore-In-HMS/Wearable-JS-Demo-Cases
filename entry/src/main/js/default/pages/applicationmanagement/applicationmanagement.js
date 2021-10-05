@@ -3,25 +3,27 @@ import pkg from '@system.package';
 
 export default {
     data: {
-        installed: "--",
+        installed : "--"
     },
-    buttonClick() {
-        this.checkIfAppInstalled();
+    onInit(){
+        this.checkIfAppInstalled("com.myapps.harmonyappjava")
     },
-    checkIfAppInstalled() {
-        var _this = this;
+    checkIfAppInstalled(packageName){
+        var _this = this
         pkg.hasInstalled({
-            bundleName: "com.myapps.harmonyappjava",
-            success: function (data) {
-                _this.installed = data ? "Yes" : "No"
+            bundleName: packageName,
+            success: function(data) {
+                _this.installed = "Yes"
                 console.log('package has installed: ' + data);
             },
-            fail: function (data, code) {
-                _this.installed = "Fail"
+            fail: function(data, code) {
+                _this.installed = "No"
                 console.log('query package fail, code: ' + code + ', data: ' + data);
             },
         });
+        return installed;
     },
+
     touchMove(e) { // Handle the swipe event.
 
         if (e.direction == "right") // Swipe right to exit.

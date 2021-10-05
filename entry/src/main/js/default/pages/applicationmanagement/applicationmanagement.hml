@@ -1,9 +1,5 @@
 <div class="container" onswipe="touchMove">
-    <div class="content">
         <text class="title">
             Installed ? : {{ installed }}
         </text>
-
-        <input class="button" type="button" value="Check" onclick="buttonClick"></input>
-    </div>
 </div>
