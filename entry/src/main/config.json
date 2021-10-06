@@ -66,6 +66,16 @@
           ],
           "when": "always"
         }
+      },
+      {
+        "name": "ohos.permission.GET_BUNDLE_INFO",
+        "reason": "hasInstalled",
+        "usedScene": {
+          "ability": [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
       }
     ],
     "distro": {

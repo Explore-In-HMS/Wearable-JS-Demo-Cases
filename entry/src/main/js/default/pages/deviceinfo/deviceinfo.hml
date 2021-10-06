@@ -1,5 +1,49 @@
-<div class="container">
-    <text class="title">
-        Hello {{ title }}
-    </text>
-</div>
+<stack class="stack">
+    <list class="showList" onswipe="touchMove">
+        <list-item class="showListHead">
+            <text class="head">Device</text >
+            <text class="head">Information</text>
+            <div class="separator" ></div>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">Brand</text>
+            <text class="subtitle">{{brand}}</text>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">Product</text>
+            <text class="subtitle">{{product}}</text>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">Manufacturer</text>
+            <text class="subtitle">{{manufacturer}}</text>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">Model</text>
+            <text class="subtitle">{{model}}</text>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">Language</text>
+            <text class="subtitle">{{language}}</text>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">Region</text>
+            <text class="subtitle">{{region}}</text>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">WindowWidths</text>
+            <text class="subtitle">{{windowWidth}}</text>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">WindowHeight</text>
+            <text class="subtitle">{{windowHeight}}</text>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">ScreenDensity</text>
+            <text class="subtitle">{{screenDensity}}</text>
+        </list-item>
+        <list-item class="showListItem">
+            <text class="title">ScreenShape</text>
+            <text class="subtitle">{{screenShape}}</text>
+        </list-item>
+    </list>
+</stack>

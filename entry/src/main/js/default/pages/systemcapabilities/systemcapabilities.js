@@ -7,7 +7,7 @@ export default {
         });
     },
     startDeviceInfo() {
-        router.replace({
+        router.push({
             uri: 'pages/deviceinfo/deviceinfo'
         });
     },
@@ -27,7 +27,7 @@ export default {
         });
     },
     startBrightness() {
-        router.replace({
+        router.push({
             uri: 'pages/brightness/brightness'
         });
     },
