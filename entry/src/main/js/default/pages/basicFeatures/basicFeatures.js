@@ -14,7 +14,7 @@ export default {
     },
     startTimer() {
         router.push({
-            uri: ''
+            uri: 'pages/timer/timer'
         });
     },
     startApplicationConfiguration() {

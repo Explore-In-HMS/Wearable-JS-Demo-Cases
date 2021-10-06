@@ -1,5 +1,33 @@
-<div class="container">
-    <text class="title">
-        Hello {{ title }}
-    </text>
+<div class="container" onswipe="touchMove">
+
+    <list class="timer-wrapper">
+        <list-item class="timer-item">
+            <text class="timer-title">{{ timeout }}</text>
+        </list-item>
+
+        <list-item class="timer-item-btn">
+            <input class="timeoutBtn" type="button" value="Set Timeout"
+                   onclick="setTimeout"></input>
+        </list-item>
+
+        <list-item class="timer-item-btn">
+            <input class="timeoutBtn" type="button" value="Clear Timeout"
+                   onclick="clearTimeout"></input>
+        </list-item>
+
+        <list-item class="timer-item">
+            <text class="timer-title">{{ interval }}</text>
+        </list-item>
+
+        <list-item class="timer-item-btn">
+            <input class="timeoutBtn" type="button" value="Set Interval"
+                   onclick="setInterval"></input>
+        </list-item>
+
+        <list-item class="timer-item-btn">
+            <input class="timeoutBtn" type="button" value="Clear Interval"
+                   onclick="clearInterval"></input>
+        </list-item>
+    </list>
+
 </div>

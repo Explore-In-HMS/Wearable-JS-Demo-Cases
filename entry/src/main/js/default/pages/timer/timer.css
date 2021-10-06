@@ -8,9 +8,30 @@
     height: 454px;
 }
 
-.title {
-    font-size: 30px;
+.timeoutBtn {
+    height: 30px;
+}
+
+.timer-wrapper {
+    width: 454px;
+    height: 454px;
+    align-items: center;
+}
+.timer-item {
+    width: 454px;
+    height: 40px;
+    flex-direction: column;
+}
+
+.timer-item-btn {
+    width: 454px;
+    height: 40px;
+    flex-direction: column;
+}
+
+.timer-title {
+    width: 454px;
+    height: 40px;
     text-align: center;
-    width: 200px;
-    height: 100px;
+    font-size: 17px;
 }
