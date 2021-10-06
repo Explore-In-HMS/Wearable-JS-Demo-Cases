@@ -21,4 +21,8 @@ This application shows all the features provided by HarmonyOS for wearable devic
 
 | **System Capability** | **Screenshots** |
 | ------ | ------ |
-| **Screen Brightness:** Change the screen brightness using three button on the screen. | ![Screenshots](screenshots/screenbrightness.png) |
+| **Screen Brightness:** <br> **- setValue:** Changes the screen brightness with given value.<br> **- getValue:** Gets the current brightness of screen as an integer value.<br> **- setMode:** Sets the screen brightness adjustment mode. (The value can be 0 or 1. <br> **0:** The screen brightness is manually adjusted.<br> **1:** The screen brightness is automatically adjusted.)<br> **- keepScreenOn:** Sets whether to always keep the screen on.| ![Screenshots](screenshots/screenbrightness.gif) |
+                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                              
