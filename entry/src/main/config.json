@@ -126,7 +126,7 @@
           "pages/systemcapabilities/systemcapabilities",
           "pages/applicationmanagement/applicationmanagement",
           "pages/basicFeatures/basicFeatures",
-          "pages/timer/timer"
+          "pages/applicationconf/applicationconf"
         ],
         "name": "default",
         "window": {

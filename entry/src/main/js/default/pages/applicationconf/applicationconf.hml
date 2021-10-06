@@ -1,0 +1,14 @@
+<div class="content">
+    <text class="title">
+        Locale Info
+    </text>
+    <text class="title">
+        Language :  {{ language }}
+    </text>
+    <text class="title">
+        Country/Region : {{region}}
+    </text>
+    <text class="title">
+        Text Layout Direction : {{dir}}
+    </text>
+</div>
