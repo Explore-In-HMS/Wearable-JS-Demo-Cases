@@ -115,7 +115,8 @@
           "pages/compassanimator/compassanimator",
           "pages/systemcapabilities/systemcapabilities",
           "pages/applicationmanagement/applicationmanagement",
-          "pages/basicFeatures/basicFeatures"
+          "pages/basicFeatures/basicFeatures",
+          "pages/timer/timer"
         ],
         "name": "default",
         "window": {
