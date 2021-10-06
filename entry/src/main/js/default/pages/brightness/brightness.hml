@@ -1,20 +1,26 @@
-<div class="stack" onswipe="touchMove">
+<stack class="stack" onswipe="touchMove">
     <div class="content">
         <text class="title">
             Brightness value : {{ brightnessValue }}
         </text>
         <div class="container">
-            <input class="button" type="button" value="20" onclick="buttonClickTwenty"></input>
-            <input class="button" type="button" value="50" onclick="buttonClickFifty"></input>
-            <input class="button" type="button" value="80" onclick="buttonClickEighty"></input>
+            <input class="button" type="button" value="20" onclick="buttonClickSetBrightness(20)"></input>
+            <input class="button" type="button" value="50" onclick="buttonClickSetBrightness(50)"></input>
+            <input class="button" type="button" value="80" onclick="buttonClickSetBrightness(80)"></input>
         </div>
         <text class="title">
            Adjustment Mode : {{ mode }}
         </text>
-        <div class="content">
-            <input class="button" type="button" value="Set Adjustment Mode On" onclick="buttonClickSetAdjustmentOn"></input>
-            <input class="button" type="button" value="Set Adjustment Mode On" onclick="buttonClickSetAdjustmentOff"></input>
+        <div class="container">
+            <input class="button" type="button" value="On" onclick="setAdjustmentMode(1)"></input>
+            <input class="button" type="button" value="Off" onclick="setAdjustmentMode(0)"></input>
         </div>
-
+        <text class="title">
+            Keep Screen : {{ keepScreenValue }}
+        </text>
+        <div class="container">
+            <input class="button" type="button" value="On" onclick="setKeepScreen(true)"></input>
+            <input class="button" type="button" value="Off" onclick="setKeepScreen(false)"></input>
+        </div>
     </div>
-</div>
+</stack>

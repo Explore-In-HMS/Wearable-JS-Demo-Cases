@@ -3,10 +3,13 @@ import brightness from '@system.brightness';
 
 export default {
     data: {
-        brightnessValue: '--'
+        brightnessValue: '--',
+        mode : '--',
+        keepScreenValue : '--'
     },
     onInit() {
         this.getBrightness()
+        this.getAdjustmentMode()
     },
     getBrightness() {
         var _this = this
@@ -20,38 +23,50 @@ export default {
             },
         });
     },
-    buttonClickTwenty() {
+    setKeepScreen(value){
         var _this = this
-        brightness.setValue({
-            value: 20,
-            success: function(){
-                _this.brightnessValue = 20
-                console.log('handling set brightness success.');
+        brightness.setKeepScreenOn({
+            keepScreenOn: value,
+            success: function () {
+                _this.keepScreenValue = value ? "On" : "Off"
+                console.log('handling set keep screen on success.')
             },
-            fail: function(data, code){
-                console.log('handling set brightness value fail, code:' + code + ', data: ' + data);
+            fail: function (data, code) {
+                console.log('handling set keep screen on fail, code:' + code + ', data: ' + data);
             },
         });
     },
-    buttonClickFifty() {
-        var _this = this
-        brightness.setValue({
-            value: 50,
-            success: function(){
-                _this.brightnessValue = 50
-                console.log('handling set brightness success.');
+    getAdjustmentMode(){
+        var _this = this;
+        brightness.getMode({
+            success: function(data){
+                _this.mode = data.mode == 1 ? "On" : "Off";
+                console.log('success get mode:' + data.mode);
             },
             fail: function(data, code){
-                console.log('handling set brightness value fail, code:' + code + ', data: ' + data);
+                console.log('handling get mode fail, code:' + code + ', data: ' + data);
             },
         });
     },
-    buttonClickEighty(e) {
+    setAdjustmentMode(mode){
+        var _this = this;
+        brightness.setMode({
+            mode: mode,
+            success: function(){
+                _this.mode = mode == 1 ? "On" : "Off";
+                console.log('handling set mode success.');
+            },
+            fail: function(data, code){
+                console.log('handling set mode fail, code:' + code + ', data: ' + data);
+            },
+        });
+    },
+    buttonClickSetBrightness(value) {
         var _this = this
         brightness.setValue({
-            value: 80,
+            value: value,
             success: function(){
-                _this.brightnessValue = 80
+                _this.brightnessValue = value
                 console.log('handling set brightness success.');
             },
             fail: function(data, code){
