@@ -126,7 +126,9 @@
           "pages/systemcapabilities/systemcapabilities",
           "pages/applicationmanagement/applicationmanagement",
           "pages/basicFeatures/basicFeatures",
-          "pages/timer/timer"
+          "pages/timer/timer",
+          "pages/popupwindow/popupwindow",
+          "pages/popupWindow/popupWindow"
         ],
         "name": "default",
         "window": {

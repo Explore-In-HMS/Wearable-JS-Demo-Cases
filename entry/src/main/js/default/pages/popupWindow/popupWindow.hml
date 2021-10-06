@@ -1,0 +1,13 @@
+<div class="container" onswipe="touchMove">
+    <list class="popup-wrapper">
+        <list-item class="popup-item">
+            <text class="popup-title">Pop-up Window</text>
+        </list-item>
+        <list-item class="popup-item-btn">
+            <input class="toastBtn" type="button" value="Take toast message" onclick="toastAction"></input>
+        </list-item>
+        <list-item class="popup-item-btn">
+            <input class="dialogBtn" type="button" value="Take dialog message" onclick="dialogAction"></input>
+        </list-item>
+    </list>
+</div>

@@ -9,7 +9,7 @@ export default {
     },
     startPopupWindow() {
         router.push({
-            uri: ''
+            uri: 'pages/popupwindow/popupwindow'
         });
     },
     startTimer() {
