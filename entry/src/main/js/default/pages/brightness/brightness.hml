@@ -1,10 +1,20 @@
-<div class="container" onswipe="touchMove">
+<div class="stack" onswipe="touchMove">
     <div class="content">
         <text class="title">
             Brightness value : {{ brightnessValue }}
         </text>
-        <input class="button" type="button" value="20" onclick="buttonClickTwenty"></input>
-        <input class="button" type="button" value="50" onclick="buttonClickFifty"></input>
-        <input class="button" type="button" value="80" onclick="buttonClickEighty"></input>
+        <div class="container">
+            <input class="button" type="button" value="20" onclick="buttonClickTwenty"></input>
+            <input class="button" type="button" value="50" onclick="buttonClickFifty"></input>
+            <input class="button" type="button" value="80" onclick="buttonClickEighty"></input>
+        </div>
+        <text class="title">
+           Adjustment Mode : {{ mode }}
+        </text>
+        <div class="content">
+            <input class="button" type="button" value="Set Adjustment Mode On" onclick="buttonClickSetAdjustmentOn"></input>
+            <input class="button" type="button" value="Set Adjustment Mode On" onclick="buttonClickSetAdjustmentOff"></input>
+        </div>
+
     </div>
 </div>

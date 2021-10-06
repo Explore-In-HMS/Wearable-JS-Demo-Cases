@@ -1,5 +1,4 @@
 import router from '@system.router';
-import prompt from '@system.prompt';
 import brightness from '@system.brightness';
 
 export default {
@@ -21,14 +20,44 @@ export default {
             },
         });
     },
-    buttonClickTwenty(e) {
-        brightness.setValue(20)
+    buttonClickTwenty() {
+        var _this = this
+        brightness.setValue({
+            value: 20,
+            success: function(){
+                _this.brightnessValue = 20
+                console.log('handling set brightness success.');
+            },
+            fail: function(data, code){
+                console.log('handling set brightness value fail, code:' + code + ', data: ' + data);
+            },
+        });
     },
-    buttonClickFifty(e) {
-        brightness.setValue(50)
+    buttonClickFifty() {
+        var _this = this
+        brightness.setValue({
+            value: 50,
+            success: function(){
+                _this.brightnessValue = 50
+                console.log('handling set brightness success.');
+            },
+            fail: function(data, code){
+                console.log('handling set brightness value fail, code:' + code + ', data: ' + data);
+            },
+        });
     },
     buttonClickEighty(e) {
-        brightness.setValue(80)
+        var _this = this
+        brightness.setValue({
+            value: 80,
+            success: function(){
+                _this.brightnessValue = 80
+                console.log('handling set brightness success.');
+            },
+            fail: function(data, code){
+                console.log('handling set brightness value fail, code:' + code + ', data: ' + data);
+            },
+        });
     },
     touchMove(e) { // Handle the swipe event.
 
