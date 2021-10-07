@@ -32,7 +32,7 @@ export default {
     touchMove(e) {
         if (e.direction == "right") {
             router.replace({
-                uri: 'pages/popupwindow/popupwindow'
+                uri: 'pages/popupWindow/popupWindow'
             })
         }
     }
