@@ -1,6 +1,6 @@
 import router from '@system.router';
-export default {
 
+export default {
     startAppManagement() {
         router.replace({
             uri: 'pages/applicationmanagement/applicationmanagement'
@@ -34,6 +34,11 @@ export default {
     startVibration() {
         router.push({
             uri: 'pages/vibration/vibration'
+        });
+    },
+    startNotificationMessage() {
+        router.push({
+            uri: 'pages/notification/notification'
         });
     },
     touchMove(e) { // Handle the swipe event.

@@ -127,8 +127,8 @@
           "pages/applicationmanagement/applicationmanagement",
           "pages/basicFeatures/basicFeatures",
           "pages/timer/timer",
-          "pages/popupWindow/popupWindow"
-          "pages/applicationconf/applicationconf"
+          "pages/popupWindow/popupWindow",
+          "pages/notification/notification"
         ],
         "name": "default",
         "window": {
