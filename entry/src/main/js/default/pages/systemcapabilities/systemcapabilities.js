@@ -36,6 +36,11 @@ export default {
             uri: 'pages/vibration/vibration'
         });
     },
+    startNetworkState() {
+        router.push({
+            uri: 'pages/networkState/networkState'
+        });
+    },
     touchMove(e) { // Handle the swipe event.
 
         if (e.direction == "right") // Swipe right to exit.

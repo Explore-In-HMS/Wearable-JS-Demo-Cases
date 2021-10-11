@@ -35,6 +35,11 @@
                 Application Management
             </text>
         </list-item>
+        <list-item class="showListItem" onclick="startNetworkState">
+            <text class="textProp">
+                Network State
+            </text>
+        </list-item>
 
     </list>
 </div>

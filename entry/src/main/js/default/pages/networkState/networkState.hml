@@ -1,0 +1,18 @@
+<div class="container" onswipe="touchMove">
+
+    <list class="networkState-wrapper">
+        <list-item class="networkState-item">
+            <text class="networkState-subtitle">Network Type: {{ type }}</text>
+            <text class="networkState-subtitle">Metered: {{ metered }}</text>
+        </list-item>
+        <list-item class="networkState-item-btn">
+            <input class="networkBtn" type="button" value="Get Network Info"
+                   onclick="getNetworkInfo"></input>
+        </list-item>
+        <list-item class="networkState-item-btn">
+            <input class="networkBtn" type="button" value="Subscribe Network Info"
+                   onclick="subscribeNetworkInfo"></input>
+        </list-item>
+    </list>
+
+</div>

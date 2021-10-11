@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 454px;
+    height: 454px;
+}
+
+.networkBtn {
+    height: 30px;
+}
+
+.networkState-wrapper {
+    width: 454px;
+    height: 454px;
+    align-items: center;
+}
+.networkState-item {
+    width: 454px;
+    height: 50px;
+    flex-direction: column;
+}
+
+.networkState-item-btn {
+    width: 454px;
+    height: 35px;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.networkState-title {
+    width: 454px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.networkState-subtitle {
+    width: 454px;
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+}
+

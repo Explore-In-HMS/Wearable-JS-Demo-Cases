@@ -16,7 +16,7 @@ This application shows all the features provided by HarmonyOS for wearable devic
 
 | **Basic Feature** | **Screenshots** |
 | ------ | ------ |
-| **Animation:**<br />Allows creating and playing animations.| ![Screenshots](screenshots/animator.gif) |
+| **Animation:**<br />Allows creating and playing animations.| ![Screenshots](screenshots/compassanimator.gif) |
 | **Timer:**<br /> -**setTimeout** method sets a timer for the system to call a function after the timer goes off.<br /> -**clearTimeout** method cancels the timer created via setTimeout().<br /> -**setInterval** method sets a repeating timer for the system to repeatedly call a function at a fixed interval.<br /> -**clearInterval** method cancels the repeating timer set via setInterval(). | ![Screenshots](screenshots/timer.gif) |
 | **Application Configuration:**<br /> -**getLocale** Obtains the current locale of the application, which is the same as the system locale. | ![Screenshots](screenshots/applicationconfiguration.png) |
 | **Pop-up Window:**<br /> Allows displaying the toast message box and the dialog message box.| ![Screenshots](screenshots/popupWindow.gif) |
@@ -31,3 +31,4 @@ This application shows all the features provided by HarmonyOS for wearable devic
 | **Application Management:**<br /> Check if the app installed on the device using  **hasInstalled** API. | ![Screenshots](screenshots/applicationmanagement.png) |
 | **Device Information:**<br /> Shows detailed information of the device. | ![Screenshots](screenshots/deviceinfo.png) |
 | **Screen Brightness:** <br> **- setValue:** Changes the screen brightness with given value.<br> **- getValue:** Gets the current brightness of screen as an integer value.<br> **- setMode:** Sets the screen brightness adjustment mode. (The value can be 0 or 1. <br> **0:** The screen brightness is manually adjusted.<br> **1:** The screen brightness is automatically adjusted.)<br> **- keepScreenOn:** Sets whether to always keep the screen on.| ![Screenshots](screenshots/screenbrightness.gif) |
+| **Network State:**<br /> -**getType** method obtains the network type.<br /> -**subscribe** method listens to the network connection state. If this method is called multiple times, the last call takes effect.<br /> -**unsubscribe** method cancels listening to the network connection state.<br /> | ![Screenshots](screenshots/networkState.png) |
