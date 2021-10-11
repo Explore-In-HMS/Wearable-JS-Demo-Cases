@@ -19,7 +19,7 @@ export default {
     },
     startApplicationConfiguration() {
         router.push({
-            uri: ''
+            uri: 'pages/applicationconf/applicationconf'
         });
     },
     touchMove(e) {  // Handle the swipe event.

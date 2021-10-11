@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.stack {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+}
+.title {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+.content {
+    width: 100%;
+    margin-bottom: 0px;
+    flex-direction: column;
+}
+.input {
+    placeholder-color: gray;
+}
+.button {
+    background-color: gray;
+    margin-end: 3px;
+}

@@ -18,6 +18,7 @@ This application shows all the features provided by HarmonyOS for wearable devic
 | ------ | ------ |
 | **Animation:**<br />Allows creating and playing animations.| ![Screenshots](screenshots/animator.gif) |
 | **Timer:**<br /> -**setTimeout** method sets a timer for the system to call a function after the timer goes off.<br /> -**clearTimeout** method cancels the timer created via setTimeout().<br /> -**setInterval** method sets a repeating timer for the system to repeatedly call a function at a fixed interval.<br /> -**clearInterval** method cancels the repeating timer set via setInterval(). | ![Screenshots](screenshots/timer.gif) |
+| **Application Configuration:**<br /> -**getLocale** Obtains the current locale of the application, which is the same as the system locale. | ![Screenshots](screenshots/applicationconfiguration.png) |
 | **Pop-up Window:**<br /> Allows displaying the toast message box and the dialog message box.| ![Screenshots](screenshots/popupWindow.gif) |
 
 ## **System Capabilities**
