@@ -148,6 +148,8 @@
           "pages/basicFeatures/basicFeatures",
           "pages/timer/timer",
           "pages/popupWindow/popupWindow",
+          "pages/notification/notification"
+          "pages/popupWindow/popupWindow",
           "pages/applicationconf/applicationconf",
           "pages/networkState/networkState"
         ],

@@ -1,4 +1,5 @@
 import router from '@system.router';
+
 export default {
 
     startAppManagement() {
@@ -39,6 +40,11 @@ export default {
     startNetworkState() {
         router.push({
             uri: 'pages/networkState/networkState'
+        });
+    },
+    startNotificationMessage() {
+        router.push({
+            uri: 'pages/notification/notification'
         });
     },
     touchMove(e) { // Handle the swipe event.

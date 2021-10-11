@@ -1,0 +1,10 @@
+<div class="container" onswipe="touchMove">
+    <list class="notification-wrapper">
+        <list-item class="notification-item">
+            <text class="notification-title">Notification Message</text>
+        </list-item>
+        <list-item class="notification-item-btn">
+            <input class="notificationBtn" type="button" value="Get a notification" onclick="notificationAction"></input>
+        </list-item>
+    </list>
+</div>

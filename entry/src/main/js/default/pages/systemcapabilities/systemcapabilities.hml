@@ -41,5 +41,10 @@
             </text>
         </list-item>
 
+        <list-item class="showListItem" onclick="startNotificationMessage">
+            <text class="textProp">
+                Notification Message
+            </text>
+        </list-item>
     </list>
 </div>
