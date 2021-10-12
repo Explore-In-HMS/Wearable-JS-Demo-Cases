@@ -47,7 +47,7 @@ export default {
             uri: 'pages/notification/notification'
         });
     },
-    startGloabalization(){
+    startGlobalization(){
      router.push({
             uri: 'pages/globalization/globalization'
         });
