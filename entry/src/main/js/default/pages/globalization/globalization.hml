@@ -1,0 +1,15 @@
+<stack class="stack" onswipe="touchMove">
+    <div class="content">
+
+    <div class="container">
+        <text class="title">
+        Date : {{ date }}
+    </text>
+    </div>
+    <div class="container">
+        <text class="title">
+            Number : {{ number }}
+        </text>
+    </div>
+</div>
+</stack>
