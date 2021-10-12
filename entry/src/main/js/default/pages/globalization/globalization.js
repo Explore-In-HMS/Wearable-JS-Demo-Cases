@@ -1,3 +1,4 @@
+import router from '@system.router';
 import {dateFormat,numberFormat} from '../../common/constants.js';
 export default {
     data: {
@@ -10,7 +11,13 @@ export default {
         //12,345.6789
         this.number = numberFormat.format((12345.6789));
 
+    },
+    touchMove(e) {
+        if (e.direction == "right") {
+            router.replace({
+                uri: 'pages/systemcapabilities/systemcapabilities'
+            })
+        }
     }
-
 
 }

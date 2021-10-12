@@ -46,5 +46,11 @@
                 Notification Message
             </text>
         </list-item>
+
+        <list-item class="showListItem" onclick="startGlobalization">
+            <text class="textProp">
+                Globalization
+            </text>
+        </list-item>
     </list>
 </div>

@@ -47,6 +47,11 @@ export default {
             uri: 'pages/notification/notification'
         });
     },
+    startGloabalization(){
+     router.push({
+            uri: 'pages/globalization/globalization'
+        });
+    },
     touchMove(e) { // Handle the swipe event.
 
         if (e.direction == "right") // Swipe right to exit.
