@@ -52,5 +52,11 @@
                 Globalization
             </text>
         </list-item>
+
+        <list-item class="showListItem" onclick="startMediaQuery">
+            <text class="textProp">
+                Media Query
+            </text>
+        </list-item>
     </list>
 </div>

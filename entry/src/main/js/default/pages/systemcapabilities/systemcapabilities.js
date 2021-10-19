@@ -52,6 +52,11 @@ export default {
             uri: 'pages/globalization/globalization'
         });
     },
+    startMediaQuery(){
+        router.push({
+            uri: 'pages/mediaquery/mediaquery'
+        });
+    },
     touchMove(e) { // Handle the swipe event.
 
         if (e.direction == "right") // Swipe right to exit.

@@ -1,0 +1,5 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">
+        Is Media Matched ?  {{ matched }}
+    </text>
+</div>
