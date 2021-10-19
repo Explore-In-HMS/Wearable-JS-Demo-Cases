@@ -18,6 +18,11 @@ export default {
             uri: 'pages/basicFeatures/basicFeatures'
         });
     },
+    startFileData(){
+        router.push({
+            uri: 'pages/fileData/fileData'
+        });
+    },
     appExit(){  // Exit the application.
         app.terminate();
     }
