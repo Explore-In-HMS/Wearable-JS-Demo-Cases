@@ -6,11 +6,10 @@ export default {
         matched: "--"
     },
     onInit() {
-        var mMediaQueryList = mediaquery.matchMedia('(max-width: 466)');
-
+        var mMediaQueryList = mediaquery.matchMedia('(max-width: 460)');
+        var _this = this;
         function maxWidthMatch(e) {
-            var _this = this;
-            if (e.matches == '(max-width: 466)') {
+            if (e.matches) {
                 _this.matched = "yes";
                 console.log('Media query is matched successfully.');
             } else {
