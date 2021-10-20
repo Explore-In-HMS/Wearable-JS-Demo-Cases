@@ -30,6 +30,7 @@ export default {
             console.log('do very 1s');
             counter++;
             _this.interval = counter;
+            console.log('counter' + counter);
         }, 1000);
     },
     clearInterval(){

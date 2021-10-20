@@ -1,0 +1,77 @@
+.stack {
+    width: 454px;
+    height: 454px;
+    justify-content: center;
+}
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 454px;
+    height: 454px;
+    background-color: transparent;
+}
+
+.random-words{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 454px;
+    height: 75px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 454px;
+    height: 75px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 454px;
+    height: 150px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+.dataStorageBtn {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.dataStorage-title {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.play_button{
+    width: 42px;
+    height: 44px;
+    border-radius: 44px;
+    background-color: darkslategrey;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-32{
+    width: 32px;
+    height: 32px;
+}
+
+.word{
+    font-size: 17px;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+}

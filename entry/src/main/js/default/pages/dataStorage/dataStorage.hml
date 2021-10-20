@@ -1,0 +1,30 @@
+<stack class="stack" onswipe="touchMove">
+    <div class="container">
+
+        <div class="random-words">
+            <div class="row">
+                <text class="word">
+                    {{ randomWord }}
+                </text>
+                <div class="play_button" onclick="getRandomWord">
+                    <image class="icon-32" src="/common/images/random.png"></image>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <text class="dataStorage-title">{{ word }}</text>
+            <input class="dataStorageBtn" type="button" value="Get Data"
+                   onclick="getValue"></input>
+            <input class="dataStorageBtn" type="button" value="Set Data"
+                   onclick="setValue"></input>
+            <input class="dataStorageBtn" type="button" value="Clear Data"
+                   onclick="clearValue"></input>
+            <input class="dataStorageBtn" type="button" value="Delete Data"
+                   onclick="deleteValue"></input>
+        </div>
+
+
+    </div>
+</stack>
+

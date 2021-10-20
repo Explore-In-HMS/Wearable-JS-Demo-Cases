@@ -76,6 +76,26 @@
           ],
           "when": "always"
         }
+      },
+      {
+        "name": "ohos.permission.GET_WIFI_INFO",
+        "reason": "Wifi Info",
+        "usedScene": {
+          "ability": [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO",
+        "reason": "Network Info",
+        "usedScene": {
+          "ability": [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
       }
     ],
     "distro": {
@@ -128,8 +148,7 @@
           "pages/basicFeatures/basicFeatures",
           "pages/timer/timer",
           "pages/popupWindow/popupWindow",
-          "pages/globalization/globalization",
-          "pages/mediaquery/mediaquery"
+          "pages/globalization/globalization"
         ],
         "name": "default",
         "window": {

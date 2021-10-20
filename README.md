@@ -34,3 +34,9 @@ This application shows all the features provided by HarmonyOS for wearable devic
 | **Network State:**<br /> -**getType** method obtains the network type.<br /> -**subscribe** method listens to the network connection state. If this method is called multiple times, the last call takes effect.<br /> -**unsubscribe** method cancels listening to the network connection state.<br /> | ![Screenshots](screenshots/networkState.png) |
 | **Notification Message:**<br />Allows us to send notification messages to the wearable device.<br />-**contentTitle** parameter specifies the notification title.<br />-**contentText** parameter specifies the notification content.<br />-**clickAction** parameter gets the action triggered when the notification is clicked.<br /> | ![Screenshots](screenshots/notification.gif) |
 | **Notification Message:**<br />Represents localized date and time formats for corresponding countries or regions. You can customize date and time formats. <br />-**format(date: Date)** Formats the passed date object based on the format set in the constructor.<br />-**Intl.NumberFormat** Represents localized number formats for corresponding countries or regions. You can customize a number format.<br /> | ![Screenshots](screenshots/globalization.png) |
+
+## **File Data**
+
+| **File Data** | **Screenshots** |
+| ------ | ------ |
+| **Data Storage:**<br /> -**get** method reads the stored content.<br /> -**set** method modifies the stored content.<br /> -**clear** method clears the stored content.<br /> -**delete** method deletes the stored content.<br />  | ![Screenshots](screenshots/dataStorage.gif) |
