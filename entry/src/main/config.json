@@ -148,7 +148,8 @@
           "pages/basicFeatures/basicFeatures",
           "pages/timer/timer",
           "pages/popupWindow/popupWindow",
-          "pages/globalization/globalization"
+          "pages/globalization/globalization",
+          "pages/mediaquery/mediaquery"
         ],
         "name": "default",
         "window": {
