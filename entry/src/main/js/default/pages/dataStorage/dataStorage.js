@@ -1,3 +1,4 @@
+import router from '@system.router'
 import storage from '@system.storage';
 
 export default {
@@ -67,5 +68,14 @@ export default {
                 console.log('call storage.delete fail, code: ' + code + ', data: ' + data);
             },
         });
+    },
+    touchMove(e) {  // Handle the swipe event.
+
+        if(e.direction == "right")  // Swipe right to exit.
+        {
+            router.replace({
+                uri: 'pages/fileData/fileData'
+            })
+        }
     }
 }

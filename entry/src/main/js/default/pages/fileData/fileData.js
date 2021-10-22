@@ -1,11 +1,15 @@
-import app from '@system.app';
 import router from '@system.router'
 
 export default {
 
-    startdataStorage(){
+    startDataStorage(){
         router.push({
             uri: 'pages/dataStorage/dataStorage'
+        });
+    },
+    startFileManagement(){
+        router.push({
+            uri: 'pages/fileManagement/fileManagement'
         });
     },
     touchMove(e) {  // Handle the swipe event.
