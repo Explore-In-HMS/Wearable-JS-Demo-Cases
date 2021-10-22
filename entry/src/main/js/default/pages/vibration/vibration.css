@@ -27,11 +27,6 @@
     flex-direction: column;
 }
 
-.title {
-    width: 200px;
-    font-size: 30px;
-    text-align: center;
-}
 
 .shortBtn {
     margin-top: 10px;

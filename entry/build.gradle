@@ -13,6 +13,7 @@ ohos {
             certpath file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_5190090000024889177.cer')
         }
     }
+
     compileSdkVersion 5
     defaultConfig {
         compatibleSdkVersion 5

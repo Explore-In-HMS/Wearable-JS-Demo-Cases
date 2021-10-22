@@ -151,11 +151,21 @@
           "pages/popupWindow/popupWindow",
           "pages/sensors/sensors",
           "pages/stepcounter/stepcounter",
+          "pages/deviceorientation/deviceorientation",
+          "pages/compass/compass",
+          "pages/accelerometer/accelerometer",
+          "pages/gyroscope/gyroscope",
+          "pages/compassanimator/compassanimator",
           "pages/systemcapabilities/systemcapabilities",
+          "pages/applicationmanagement/applicationmanagement",
+          "pages/basicFeatures/basicFeatures",
           "pages/timer/timer",
           "pages/vibration/vibration",
           "pages/dataStorage/dataStorage",
           "pages/fileData/fileData"
+          "pages/popupWindow/popupWindow",
+          "pages/globalization/globalization",
+          "pages/mediaquery/mediaquery"
         ],
         "name": "default",
         "window": {
