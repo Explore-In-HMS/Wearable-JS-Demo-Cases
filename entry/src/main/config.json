@@ -154,8 +154,9 @@
           "pages/systemcapabilities/systemcapabilities",
           "pages/timer/timer",
           "pages/vibration/vibration",
-          "pages/dataStorage/dataStorage",
           "pages/fileData/fileData",
+          "pages/dataStorage/dataStorage",
+          "pages/fileStorage/fileStorage",
           "pages/mediaquery/mediaquery"
         ],
         "name": "default",
