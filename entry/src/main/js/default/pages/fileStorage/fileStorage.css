@@ -1,0 +1,27 @@
+.stack {
+    width: 466px;
+    height: 466px;
+    justify-content: center;
+}
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 466px;
+    height: 466px;
+    background-color: transparent;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    background-color: transparent;
+}
+
+.fileManagementBtn {
+    height: 30px;
+    margin-top: 5px;
+}

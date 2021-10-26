@@ -3,8 +3,8 @@
         <list-item class="showListItem" onclick="startDataStorage">
             <text class="textProp">Data Storage</text>
         </list-item>
-        <list-item class="showListItem" onclick="startFileManagement">
-            <text class="textProp">File Management</text>
+        <list-item class="showListItem" onclick="startFileStorage">
+            <text class="textProp">File Storage</text>
         </list-item>
     </list>
 </div>

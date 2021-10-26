@@ -7,9 +7,9 @@ export default {
             uri: 'pages/dataStorage/dataStorage'
         });
     },
-    startFileManagement(){
+    startFileStorage(){
         router.push({
-            uri: 'pages/fileManagement/fileManagement'
+            uri: 'pages/fileStorage/fileStorage'
         });
     },
     touchMove(e) {  // Handle the swipe event.
