@@ -1,0 +1,6 @@
+<div class="container" onswipe="touchMove">
+    <text class="title">
+        Is Data Fetched ?
+        {{ responseData }}
+    </text>
+</div>

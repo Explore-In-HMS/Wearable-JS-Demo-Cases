@@ -9,6 +9,9 @@
         <list-item class="showListItem" onclick="startFileData">
             <text class="textProp">File Data</text>
         </list-item>
+        <list-item class="showListItem" onclick="startNetworkAccess">
+            <text class="textProp">Network Access</text>
+        </list-item>
     </list>
 </div>
 

@@ -23,6 +23,11 @@ export default {
             uri: 'pages/fileData/fileData'
         });
     },
+    startNetworkAccess(){
+        router.push({
+            uri: 'pages/networkAccess/networkAccess'
+        });
+    },
     appExit(){  // Exit the application.
         app.terminate();
     }
