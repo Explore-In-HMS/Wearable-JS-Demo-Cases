@@ -7,7 +7,13 @@
       "name": "1.0.0"
     }
   },
-  "deviceConfig": {},
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
+  },
   "module": {
     "package": "com.wearableJS.turkeyp3",
     "name": ".MyApplication",
@@ -96,6 +102,16 @@
           ],
           "when": "always"
         }
+      },
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "internet",
+        "usedScene": {
+          "ability": [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
       }
     ],
     "distro": {
@@ -156,7 +172,9 @@
           "pages/vibration/vibration",
           "pages/dataStorage/dataStorage",
           "pages/fileData/fileData",
-          "pages/mediaquery/mediaquery"
+          "pages/mediaquery/mediaquery",
+          "pages/datarequest/datarequest",
+          "pages/networkAccess/networkAccess"
         ],
         "name": "default",
         "window": {

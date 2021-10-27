@@ -1,0 +1,7 @@
+<div class="container" onswipe="touchMove">
+    <list class="showList">
+        <list-item class="showListItem" onclick="startdatarequest">
+            <text class="textProp">Data Request</text>
+        </list-item>
+    </list>
+</div>

@@ -41,3 +41,9 @@ This application shows all the features provided by HarmonyOS for wearable devic
 | **File Data** | **Screenshots** |
 | ------ | ------ |
 | **Data Storage:**<br /> -**get** method reads the stored content.<br /> -**set** method modifies the stored content.<br /> -**clear** method clears the stored content.<br /> -**delete** method deletes the stored content.<br />  | ![Screenshots](screenshots/dataStorage.gif) |
+
+## **Network Access**
+
+| **Network Access** | **Screenshots** |
+| ------ | ------ |
+| **Data Request:**<br /> -**fetch** method obtains data through a network.<br />   | ![Screenshots](screenshots/dataRequest.png) |
