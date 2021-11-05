@@ -1,14 +1,77 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 0px;
-    top: 0px;
+.stack {
     width: 454px;
     height: 454px;
+    justify-content: center;
+}
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 454px;
+    height: 454px;
+    background-color: transparent;
 }
 
-.title {
-    font-size: 25px;
+.random-users{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 454px;
+    height: 60px;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 454px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 454px;
+    height: 155px;
+    background-color: transparent;
+}
+
+.dataRequest-title {
+    height: 30px;
     text-align: center;
+    font-size: 17px;
+}
+
+.dataRequest-subtitle {
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.word{
+    font-size: 17px;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+}
+
+.play_button{
+    width: 42px;
+    height: 44px;
+    border-radius: 44px;
+    background-color: darkslategrey;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-32{
+    width: 32px;
+    height: 32px;
 }

@@ -1,6 +1,24 @@
-<div class="container" onswipe="touchMove">
-    <text class="title">
-        Is Data Fetched ?
-        {{ responseData }}
-    </text>
-</div>
+<stack class="stack" onswipe="touchMove">
+    <div class="container">
+
+        <div class="random-users">
+            <div class="row">
+                <text class="word">ID: {{ id }}</text>
+                <div class="play_button" onclick="getRandomUser">
+                    <image class="icon-32" src="/common/images/random.png"></image>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <text class="dataRequest-title">Email:</text>
+            <text class="dataRequest-subtitle">{{ email }}</text>
+            <text class="dataRequest-title">Name:</text>
+            <text class="dataRequest-subtitle">{{ name }}</text>
+            <text class="dataRequest-title">Username:</text>
+            <text class="dataRequest-subtitle">{{ userName }}</text>
+        </div>
+
+
+    </div>
+</stack>

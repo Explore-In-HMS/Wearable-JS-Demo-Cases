@@ -1,4 +1,3 @@
-import app from '@system.app';
 import router from '@system.router'
 
 export default {

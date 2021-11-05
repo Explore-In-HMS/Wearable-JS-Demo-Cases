@@ -8,7 +8,7 @@
     minute : '2-digit',
     second : '2-digit',
 });
- export const numberFormat = new Intl.NumberFormat('zh-CN', {
+ export const numberFormat = new Intl.NumberFormat('tr-TR', {
      style:'decimal',
      usegrouping:true,
      maximumFractionDigits:4,
