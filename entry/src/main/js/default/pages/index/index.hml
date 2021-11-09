@@ -12,6 +12,9 @@
         <list-item class="showListItem" onclick="startNetworkAccess">
             <text class="textProp">Network Access</text>
         </list-item>
+        <list-item class="showListItem" onclick="startDistributedCapability">
+            <text class="textProp">Distributed Capability</text>
+        </list-item>
     </list>
 </div>
 

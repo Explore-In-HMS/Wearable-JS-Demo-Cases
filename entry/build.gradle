@@ -5,9 +5,9 @@ ohos {
     signingConfigs {
         debug {
             storeFile file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_5190090000024889177.p12')
-            storePassword '0000001823E4A9830D68CBF7FD42A1A9B74F33F1305205AD828B6F11C0DA1F05542DAFEAD0590BA9'
+            storePassword '0000001802B4C2CD85CBE62A0939C76F6912964F07FA2C2128ED2CB2F9238474A6FEAF3B03EDE9F7'
             keyAlias = 'debugKey'
-            keyPassword '0000001892ECEE81E6E6FE4D6E715980279710A5C2A8165EDAF2ECA095CB45A57A3C48371BC6AAE7'
+            keyPassword '000000182516851DB46DC4311603233B235E8CA79BA47CD2899AF861BF349803D16ED2FC4646D782'
             signAlg = 'SHA256withECDSA'
             profile file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_turkeyp3_5190090000024889177.p7b')
             certpath file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_5190090000024889177.cer')
