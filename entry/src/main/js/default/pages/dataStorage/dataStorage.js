@@ -12,58 +12,58 @@ export default {
         randomWord: '--',
         word: '--'
     },
-    onInit(){
+    onInit() {
         this.getRandomWord();
     },
-    getRandomWord(){
-        let i = Math.floor(Math.random()*5)
+    getRandomWord() {
+        let i = Math.floor(Math.random() * 5)
         this.randomWord = this.words[i]
     },
-    getValue(){
+    getValue() {
         var _this = this;
         storage.get({
             key: 'storage_key',
-            success: function(data) {
+            success: function (data) {
                 console.log('call storage.get success: ' + data);
                 _this.word = data;
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 console.log('call storage.get fail, code: ' + code + ', data: ' + data);
             },
-            complete: function() {
+            complete: function () {
                 console.log('call complete');
             },
         });
     },
-    setValue(){
+    setValue() {
         storage.set({
             key: 'storage_key',
             value: this.randomWord,
-            success: function() {
+            success: function () {
                 console.log('call storage.set success.');
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 console.log('call storage.set fail, code: ' + code + ', data: ' + data);
             },
         });
     },
-    clearValue(){
+    clearValue() {
         storage.clear({
-            success: function() {
+            success: function () {
                 console.log('call storage.clear success.');
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 console.log('call storage.clear fail, code: ' + code + ', data: ' + data);
             },
         });
     },
-    deleteValue(){
+    deleteValue() {
         storage.delete({
             key: 'storage_key',
-            success: function() {
+            success: function () {
                 console.log('call storage.delete success.');
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 console.log('call storage.delete fail, code: ' + code + ', data: ' + data);
             },
         });

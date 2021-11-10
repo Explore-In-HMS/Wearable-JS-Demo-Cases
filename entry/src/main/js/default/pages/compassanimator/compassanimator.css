@@ -4,12 +4,14 @@
     width: 150px;
     height: 150px;
 }
-.showCompassBtn{
+
+.showCompassBtn {
     background-color: blue;
     text-color: white;
     width: 150px;
     height: 25px;
 }
+
 .compass-container {
     display: flex;
     justify-content: center;

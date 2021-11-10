@@ -6,40 +6,40 @@ export default {
         metered: '--',
         type: '--'
     },
-    getNetworkInfo(){
+    getNetworkInfo() {
         var _this = this;
         network.getType({
-            success: function(data) {
+            success: function (data) {
                 _this.metered = data.metered;
                 _this.type = data.type
                 console.log('success get network type:' + data.type);
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 console.log('fail to get network type code:' + code + ', data:' + data);
             },
         });
     },
-    subscribeNetworkInfo(){
+    subscribeNetworkInfo() {
         var _this = this;
         network.subscribe({
-            success: function(data) {
+            success: function (data) {
                 _this.metered = data.metered;
                 _this.type = data.type
                 console.log('network type change type:' + data.type);
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 console.log('fail to subscribe network, code:' + code + ', data:' + data);
             },
         });
     },
-    touchMove(e){
+    touchMove(e) {
         if (e.direction == "right") {
             router.replace({
                 uri: 'pages/systemcapabilities/systemcapabilities'
             });
         }
     },
-    onDestroy(){
+    onDestroy() {
         network.unsubscribe();
     }
 }

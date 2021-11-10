@@ -1,6 +1,6 @@
 <div class="compass-container" onswipe="touchMove">
     <div class="container">
-        <image-animator class="image-player" ref="animator" images="{{images}}" duration="1s"
-                onclick="handleClick"></image-animator>
+        <image-animator class="image-player" ref="animator" images="{{ images }}" duration="1s"
+                        onclick="handleClick"></image-animator>
     </div>
 </div>

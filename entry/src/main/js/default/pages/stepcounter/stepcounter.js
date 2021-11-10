@@ -6,13 +6,13 @@ export default {
         stepCount: '--',
         distance: '--',
     },
-    onInit(){
+    onInit() {
         this.getStepCount();
     },
-    getStepCount(){
+    getStepCount() {
         let _this = this;
         sensor.subscribeStepCounter({
-            success: function (response){
+            success: function (response) {
                 console.log('get step value:' + response.steps);
                 _this.stepCount = response.steps + ' STEPS';
                 _this.calculateDistance(response.steps);
@@ -31,17 +31,17 @@ export default {
             this.distance = (stepToMeter / 1000).toFixed(1) + " km"
         }
     },
-    touchMove(e){
+    touchMove(e) {
         if (e.direction == "right") {
             router.replace({
                 uri: 'pages/sensors/sensors'
             });
         }
     },
-    stepCounterUnsubscribe(){
+    stepCounterUnsubscribe() {
         sensor.unsubscribeStepCounter();
     },
-    onDestroy(){
+    onDestroy() {
         this.barometerUnsubscribe();
     }
 }
