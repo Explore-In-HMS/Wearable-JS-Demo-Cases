@@ -1,0 +1,11 @@
+<div class="container" onswipe="touchMove">
+    <list class="showList">
+        <list-item class="showListItem" onclick="startDistributedStart">
+            <text class="textProp">Distributed Start</text>
+        </list-item>
+        <list-item class="showListItem" onclick="startDistributedMigration">
+            <text class="textProp">Distributed Migration</text>
+        </list-item>
+    </list>
+</div>
+

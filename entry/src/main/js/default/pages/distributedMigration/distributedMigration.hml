@@ -1,0 +1,6 @@
+<div class="container" onswipe="touchMove">
+
+    <input class="startDistributed" type="button" value="Distributed Migration"
+           onclick="doDistribute"></input>
+
+</div>

@@ -3,7 +3,7 @@ import router from '@system.router';
 export default {
 
     startAppManagement() {
-        router.replace({
+        router.push({
             uri: 'pages/applicationmanagement/applicationmanagement'
         });
     },

@@ -28,6 +28,11 @@ export default {
             uri: 'pages/networkAccess/networkAccess'
         });
     },
+    startDistributedCapability(){
+    router.push({
+            uri: 'pages/distributedCapability/distributedCapability'
+        });
+    },
     appExit(){  // Exit the application.
         app.terminate();
     }
