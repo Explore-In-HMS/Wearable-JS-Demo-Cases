@@ -6,15 +6,15 @@ export default {
         charging: '--',
         level: '--',
     },
-    onInit(){
+    onInit() {
         var _this = this;
         battery.getStatus({
-            success: function(data) {
+            success: function (data) {
                 console.log('success get battery level:' + data.level);
                 _this.charging = data.charging;
                 _this.level = data.level;
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 console.log('fail to get battery level code:' + code + ', data: ' + data);
             },
         });
