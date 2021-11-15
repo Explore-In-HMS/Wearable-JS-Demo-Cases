@@ -5,11 +5,13 @@ import app from '@system.app';
 export default {
     data: {
         pressure: '--'
-    }, onInit() {
+    },
+    onInit() {
         this.getPressure();
         var info = app.getInfo();
         console.log(JSON.stringify(info));
-    }, getPressure(){
+    },
+    getPressure() {
         var that = this;
         sensor.subscribeBarometer({
             success: function (data) {
@@ -21,15 +23,15 @@ export default {
                 that.pressure = 'fail get device info code:' + code + ', data: ' + data;
             },
         });
-    }, touchMove(e){
+    },
+    touchMove(e) {
         if (e.direction == "right") {
             router.replace({
                 uri: 'pages/sensors/sensors'
             });
         }
-    }, barometerUnsubscribe(){
+    },
+    onDestroy() {
         sensor.unsubscribeBarometer();
-    } , onDestroy(){
-        this.barometerUnsubscribe();
     }
 }

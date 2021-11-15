@@ -9,11 +9,11 @@
     background-color: white;
 }
 
-.compass{
+.compass {
     left: 0px;
     top: 0px;
     width: 220px;
     height: 220px;
     background-color: transparent;
-    z-index:98;
+    z-index: 98;
 }

@@ -9,10 +9,10 @@ export default {
         accuracy: '--',
         time: '--'
     },
-    onInit(){
+    onInit() {
         var _this = this;
         geolocation.getLocation({
-            success: function(data) {
+            success: function (data) {
                 console.log('success get location data. latitude:' + data.latitude);
                 _this.longitude = data.longitude;
                 _this.latitude = data.latitude;
@@ -20,7 +20,7 @@ export default {
                 _this.accuracy = data.accuracy;
                 _this.time = data.time;
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 console.log('fail to get location. code:' + code + ', data:' + data);
             },
         });
@@ -32,7 +32,7 @@ export default {
             });
         }
     },
-    onDestroy(){
+    onDestroy() {
         geolocation.unsubscribe();
     }
 }

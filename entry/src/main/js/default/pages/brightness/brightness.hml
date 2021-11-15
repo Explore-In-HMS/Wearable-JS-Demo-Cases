@@ -9,7 +9,7 @@
             <input class="button" type="button" value="80" onclick="buttonClickSetBrightness(80)"></input>
         </div>
         <text class="title">
-           Adjustment Mode : {{ mode }}
+            Adjustment Mode : {{ mode }}
         </text>
         <div class="container">
             <input class="button" type="button" value="On" onclick="setAdjustmentMode(1)"></input>

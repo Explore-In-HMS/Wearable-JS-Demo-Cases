@@ -1,12 +1,12 @@
 import router from '@system.router';
-import {dateFormat,numberFormat} from '../../common/constants.js';
+import {dateFormat, numberFormat} from '../../common/constants.js';
 
 export default {
     data: {
         date: '--',
-        number : '--'
+        number: '--'
     },
-    onInit(){
+    onInit() {
         // Tuesday, September 22, 2020 05:14:13 PM -> en-US
         this.date = dateFormat.format(new Date());
         // 12.345,6789 -> tr-TR
@@ -20,5 +20,4 @@ export default {
             })
         }
     }
-
 }

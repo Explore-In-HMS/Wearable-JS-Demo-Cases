@@ -3,6 +3,7 @@
     height: 454px;
     justify-content: center;
 }
+
 .container {
     flex-direction: column;
     justify-content: flex-start;
@@ -12,7 +13,7 @@
     background-color: transparent;
 }
 
-.random-users{
+.random-users {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -22,7 +23,7 @@
     margin-top: 5px;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -32,7 +33,7 @@
     background-color: transparent;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -55,14 +56,14 @@
     margin-bottom: 5px;
 }
 
-.word{
+.word {
     font-size: 17px;
     text-align: center;
     width: 80px;
     height: 40px;
 }
 
-.play_button{
+.play_button {
     width: 42px;
     height: 44px;
     border-radius: 44px;
@@ -71,7 +72,7 @@
     justify-content: center;
 }
 
-.icon-32{
+.icon-32 {
     width: 32px;
     height: 32px;
 }

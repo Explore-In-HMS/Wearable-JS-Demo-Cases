@@ -4,8 +4,8 @@ import brightness from '@system.brightness';
 export default {
     data: {
         brightnessValue: '--',
-        mode : '--',
-        keepScreenValue : '--'
+        mode: '--',
+        keepScreenValue: '--'
     },
     onInit() {
         this.getBrightness()
@@ -23,7 +23,7 @@ export default {
             },
         });
     },
-    setKeepScreen(value){
+    setKeepScreen(value) {
         var _this = this
         brightness.setKeepScreenOn({
             keepScreenOn: value,
@@ -36,27 +36,27 @@ export default {
             },
         });
     },
-    getAdjustmentMode(){
+    getAdjustmentMode() {
         var _this = this;
         brightness.getMode({
-            success: function(data){
+            success: function (data) {
                 _this.mode = data.mode == 1 ? "On" : "Off";
                 console.log('success get mode:' + data.mode);
             },
-            fail: function(data, code){
+            fail: function (data, code) {
                 console.log('handling get mode fail, code:' + code + ', data: ' + data);
             },
         });
     },
-    setAdjustmentMode(mode){
+    setAdjustmentMode(mode) {
         var _this = this;
         brightness.setMode({
             mode: mode,
-            success: function(){
+            success: function () {
                 _this.mode = mode == 1 ? "On" : "Off";
                 console.log('handling set mode success.');
             },
-            fail: function(data, code){
+            fail: function (data, code) {
                 console.log('handling set mode fail, code:' + code + ', data: ' + data);
             },
         });
@@ -65,11 +65,11 @@ export default {
         var _this = this
         brightness.setValue({
             value: value,
-            success: function(){
+            success: function () {
                 _this.brightnessValue = value
                 console.log('handling set brightness success.');
             },
-            fail: function(data, code){
+            fail: function (data, code) {
                 console.log('handling set brightness value fail, code:' + code + ', data: ' + data);
             },
         });

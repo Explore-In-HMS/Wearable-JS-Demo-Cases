@@ -1,14 +1,15 @@
 import configuration from '@system.configuration';
+
 export default {
     data: {
-        language : '--',
-        region : '--',
-        dir : '--',
+        language: '--',
+        region: '--',
+        dir: '--',
     },
-    onInit(){
+    onInit() {
         this.getLocale();
     },
-    getLocale(){
+    getLocale() {
         const localeInfo = configuration.getLocale();
         this.language = localeInfo.language;
         this.region = localeInfo.countryOrRegion;

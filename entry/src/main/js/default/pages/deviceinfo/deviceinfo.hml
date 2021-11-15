@@ -2,48 +2,48 @@
 
     <list class="deviceInfo-wrapper" onswipe="touchMove">
         <list-item class="deviceInfo-item">
-            <text class="deviceInfo-header">Device</text >
+            <text class="deviceInfo-header">Device</text>
             <text class="deviceInfo-header">Information</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">Brand:</text>
-            <text class="deviceInfo-title">{{brand}}</text>
+            <text class="deviceInfo-title">{{ brand }}</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">Product:</text>
-            <text class="deviceInfo-title">{{product}}</text>
+            <text class="deviceInfo-title">{{ product }}</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">Manufacturer:</text>
-            <text class="deviceInfo-title">{{manufacturer}}</text>
+            <text class="deviceInfo-title">{{ manufacturer }}</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">Model:</text>
-            <text class="deviceInfo-title">{{model}}</text>
+            <text class="deviceInfo-title">{{ model }}</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">Language:</text>
-            <text class="deviceInfo-title">{{language}}</text>
+            <text class="deviceInfo-title">{{ language }}</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">Region:</text>
-            <text class="deviceInfo-title">{{region}}</text>
+            <text class="deviceInfo-title">{{ region }}</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">WindowWidths:</text>
-            <text class="deviceInfo-title">{{windowWidth}}</text>
+            <text class="deviceInfo-title">{{ windowWidth }}</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">WindowHeight:</text>
-            <text class="deviceInfo-title">{{windowHeight}}</text>
+            <text class="deviceInfo-title">{{ windowHeight }}</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">ScreenDensity:</text>
-            <text class="deviceInfo-title">{{screenDensity}}</text>
+            <text class="deviceInfo-title">{{ screenDensity }}</text>
         </list-item>
         <list-item class="deviceInfo-item">
             <text class="deviceInfo-title">ScreenShape:</text>
-            <text class="deviceInfo-title">{{screenShape}}</text>
+            <text class="deviceInfo-title">{{ screenShape }}</text>
         </list-item>
     </list>
 </div>

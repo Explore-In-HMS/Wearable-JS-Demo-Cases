@@ -3,10 +3,10 @@
 
         <div class="column">
             <text class="globalization-title">Date:</text>
-            <text class="globalization-subtitle">{{date}}</text>
+            <text class="globalization-subtitle">{{ date }}</text>
 
             <text class="globalization-title">Number:</text>
-            <text class="globalization-title">{{number}}</text>
+            <text class="globalization-title">{{ number }}</text>
         </div>
 
     </div>

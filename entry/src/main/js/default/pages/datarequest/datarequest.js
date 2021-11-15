@@ -11,12 +11,12 @@ export default {
         finalData: 'NA',
         url: "https://jsonplaceholder.typicode.com/users",
     },
-    onInit(){
+    onInit() {
         this.fetch();
     },
-    getRandomUser(){
+    getRandomUser() {
         var _this = this;
-        let i = Math.floor(Math.random()*10)
+        let i = Math.floor(Math.random() * 10)
 
         _this.id = _this.finalData[i]['id'];
         _this.name = _this.finalData[i]['name'];
@@ -33,7 +33,7 @@ export default {
                 var parseData = JSON.parse(stringData);
                 _this.finalData = JSON.parse(parseData);
 
-                let i = Math.floor(Math.random()*10)
+                let i = Math.floor(Math.random() * 10)
 
                 _this.id = _this.finalData[i]['id'];
                 _this.name = _this.finalData[i]['name'];

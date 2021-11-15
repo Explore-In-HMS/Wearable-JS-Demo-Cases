@@ -1,6 +1,6 @@
-<div class="compass-container" onswipe="touchMove" >
-    <div class="compass" style="transform:{{compass_transform}}">
-        <div class="compass" >
+<div class="compass-container" onswipe="touchMove">
+    <div class="compass" style="transform : {{ compass_transform }}">
+        <div class="compass">
             <image src="/common/images/compass.png"></image>
         </div>
     </div>

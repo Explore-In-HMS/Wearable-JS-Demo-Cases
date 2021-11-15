@@ -13,13 +13,14 @@
     height: 454px;
     align-items: center;
 }
+
 .deviceInfo-item {
     width: 454px;
     height: 80px;
     flex-direction: column;
 }
 
-.deviceInfo-header{
+.deviceInfo-header {
     width: 454px;
     height: 30px;
     text-align: center;
