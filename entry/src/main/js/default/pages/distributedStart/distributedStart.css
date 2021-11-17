@@ -1,16 +1,62 @@
-.container {
-    display: flex;
+.stack {
+    width: 466px;
+    height: 466px;
     justify-content: center;
-    align-items: center;
-    left: 0px;
-    top: 0px;
-    width: 454px;
-    height: 454px;
 }
 
-.title {
-    font-size: 30px;
-    text-align: center;
-    width: 200px;
-    height: 100px;
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 466px;
+    height: 200px;
+}
+
+.column {
+    flex-direction: column;
+    margin: 10px;
+}
+
+.startDistributed {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.select-device-dialog {
+    width: 90%;
+    height: 60%;
+}
+
+.select-device-title {
+    width: 100%;
+    height: 40%;
+    text-align: left;
+    font-size: 17px;
+}
+
+.select-device-wrapper {
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.select-device-list {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin: 5%;
+    background-color: grey;
+    border-radius: 10;
+}
+
+.select-device-item {
+    width: 80%;
+    height: 30%;
+    justify-content: flex-start;
+}
+
+.select-device-item-left {
+    font-size: 15px;
 }
