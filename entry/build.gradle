@@ -1,3 +1,7 @@
+plugins {
+    id "org.sonarqube" version "3.0"
+}
+
 apply plugin: 'com.huawei.ohos.hap'
 apply plugin: 'com.huawei.ohos.decctest'
 //For instructions on signature configuration, see https://developer.harmonyos.com/en/docs/documentation/doc-guides/ide_debug_device-0000001053822404#EN-US_TOPIC_0000001154985555__section1112183053510
@@ -27,6 +31,16 @@ ohos {
         }
     }
 
+}
+
+sonarqube{
+    properties{
+        property "sonar.projectKey", "wearableJsDemoAppProject"
+        property "sonar.projectName", "wearableJsDemoApp"
+        property "sonar.login", "33e2d67013f4b32f0d99a66de5287b74e2e02a7f"
+        property "sonar.host.url", "http://10.216.72.212:9000"
+        property "sonar.projectVersion", "1.0.0"
+    }
 }
 
 dependencies {
