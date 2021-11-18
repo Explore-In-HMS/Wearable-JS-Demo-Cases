@@ -21,10 +21,10 @@ export default {
                     color: '#EE4747',
                 },
             ],
-            success: function(data) {
+            success: function (data) {
                 console.log('dialog success callback,click button : ' + data.index);
             },
-            cancel: function() {
+            cancel: function () {
                 console.log('dialog cancel callback');
             },
         });

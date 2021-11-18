@@ -33,13 +33,13 @@ export default {
             },
         });
     },
-    touchMove(e) {  // Handle the swipe event.
+    touchMove(e) { // Handle the swipe event.
 
-         if(e.direction == "right")  // Swipe right to exit.
-         {
-             router.replace({
-                 uri: 'pages/compassanimator/compassanimator'
-             })
-         }
-     }
+        if (e.direction == "right") // Swipe right to exit.
+        {
+            router.replace({
+                uri: 'pages/compassanimator/compassanimator'
+            })
+        }
+    }
 }

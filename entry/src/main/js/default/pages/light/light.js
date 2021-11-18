@@ -11,11 +11,11 @@ export default {
     getLight() {
         var _this = this;
         sensor.subscribeLight({
-            success: function(ret) {
+            success: function (ret) {
                 console.log('get data intensity:' + ret.intensity);
                 _this.intensity = "Light: " + ret.intensity + " lux";
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 console.error('subscribe light fail, code: ' + code + ', data: ' + data);
             },
         });

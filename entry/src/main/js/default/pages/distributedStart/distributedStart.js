@@ -23,6 +23,34 @@ export default {
             console.log('cannot start browsing service, reason: ' + result.data);
         }
     },
+<<<<<<< HEAD
+=======
+    async doDistributeRemote() {
+        // @ts-ignore
+        // Testing Dialog Component
+        this.$element('showDialog').show();
+
+        // Require API 6+ for getDeviceList method
+        var ret = await FeatureAbility.getDeviceList(0);
+        if (ret.code === 0) {
+            this.deviceList = [];
+            for (var i = 0; i < ret.data.length; i++) {
+                this.deviceList.push({
+                    deviceName: ret.data[i].deviceName,
+                    networkId: ret.data[i].networkId
+                });
+            }
+        }
+        if (this.deviceList.length > 0) {
+            this.$element('showDialog').show();
+        } else {
+            prompt.showToast({
+                message: 'Error',
+                duration: 1000,
+            });
+        }
+    },
+>>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
     async selectDevice(networkId) {
         this.$element('showDialog').close();
         let actionData = {
@@ -45,13 +73,23 @@ export default {
             });
         }
     },
+<<<<<<< HEAD
     touchMove(e) {
 
         if (e.direction == "right") {
+=======
+    touchMove(e) {  // Handle the swipe event.
+
+        if(e.direction == "right")  // Swipe right to exit.
+        {
+>>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
             router.replace({
                 uri: 'pages/distributedCapability/distributedCapability'
             })
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1

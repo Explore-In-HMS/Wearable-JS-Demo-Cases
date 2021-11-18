@@ -1,49 +1,49 @@
-<stack class="stack">
-    <list class="showList" onswipe="touchMove">
-        <list-item class="showListHead">
-            <text class="head">Device</text >
-            <text class="head">Information</text>
-            <div class="separator" ></div>
+<div class="container" onswipe="touchMove">
+
+    <list class="deviceInfo-wrapper" onswipe="touchMove">
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-header">Device</text>
+            <text class="deviceInfo-header">Information</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">Brand</text>
-            <text class="subtitle">{{brand}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">Brand:</text>
+            <text class="deviceInfo-title">{{ brand }}</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">Product</text>
-            <text class="subtitle">{{product}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">Product:</text>
+            <text class="deviceInfo-title">{{ product }}</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">Manufacturer</text>
-            <text class="subtitle">{{manufacturer}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">Manufacturer:</text>
+            <text class="deviceInfo-title">{{ manufacturer }}</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">Model</text>
-            <text class="subtitle">{{model}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">Model:</text>
+            <text class="deviceInfo-title">{{ model }}</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">Language</text>
-            <text class="subtitle">{{language}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">Language:</text>
+            <text class="deviceInfo-title">{{ language }}</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">Region</text>
-            <text class="subtitle">{{region}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">Region:</text>
+            <text class="deviceInfo-title">{{ region }}</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">WindowWidths</text>
-            <text class="subtitle">{{windowWidth}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">WindowWidths:</text>
+            <text class="deviceInfo-title">{{ windowWidth }}</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">WindowHeight</text>
-            <text class="subtitle">{{windowHeight}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">WindowHeight:</text>
+            <text class="deviceInfo-title">{{ windowHeight }}</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">ScreenDensity</text>
-            <text class="subtitle">{{screenDensity}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">ScreenDensity:</text>
+            <text class="deviceInfo-title">{{ screenDensity }}</text>
         </list-item>
-        <list-item class="showListItem">
-            <text class="title">ScreenShape</text>
-            <text class="subtitle">{{screenShape}}</text>
+        <list-item class="deviceInfo-item">
+            <text class="deviceInfo-title">ScreenShape:</text>
+            <text class="deviceInfo-title">{{ screenShape }}</text>
         </list-item>
     </list>
-</stack>
+</div>

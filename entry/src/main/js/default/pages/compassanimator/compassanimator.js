@@ -1,11 +1,21 @@
+// @ts-nocheck
 import router from '@system.router';
+
 export default {
     data: {
         images: [
-            { src: '/common/images/compass1.png' },
-            { src: '/common/images/compass2.png' },
-            { src: '/common/images/compass3.png' },
-            { src: '/common/images/compass4.png' },
+            {
+                src: '/common/images/compass1.png'
+            },
+            {
+                src: '/common/images/compass2.png'
+            },
+            {
+                src: '/common/images/compass3.png'
+            },
+            {
+                src: '/common/images/compass4.png'
+            },
         ]
     },
     handleClick() {
@@ -20,9 +30,9 @@ export default {
             animator.pause();
         }
     },
-    touchMove(e) {  // Handle the swipe event.
+    touchMove(e) { // Handle the swipe event.
 
-        if(e.direction == "right")  // Swipe right to exit.
+        if (e.direction == "right") // Swipe right to exit.
         {
             router.replace({
                 uri: 'pages/basicFeatures/basicFeatures'

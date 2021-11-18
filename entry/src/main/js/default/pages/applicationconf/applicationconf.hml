@@ -6,9 +6,9 @@
         Language :  {{ language }}
     </text>
     <text class="title">
-        Country/Region : {{region}}
+        Country/Region : {{ region }}
     </text>
     <text class="title">
-        Text Layout Direction : {{dir}}
+        Text Layout Direction : {{ dir }}
     </text>
 </div>

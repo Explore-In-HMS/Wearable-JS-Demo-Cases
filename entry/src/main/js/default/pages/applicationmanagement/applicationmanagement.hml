@@ -1,5 +1,5 @@
 <div class="container" onswipe="touchMove">
-        <text class="title">
-            Installed ? : {{ installed }}
-        </text>
+    <text class="title">
+        Installed ? : {{ installed }}
+    </text>
 </div>

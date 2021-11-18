@@ -20,7 +20,8 @@
     "mainAbility": "com.wearableJS.turkeyp3.MainAbility",
     "deviceType": [
       "phone",
-      "wearable"
+      "wearable",
+      "tablet"
     ],
     "reqPermissions": [
       {
@@ -112,6 +113,36 @@
           ],
           "when": "always"
         }
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC",
+        "reason": "DISTRIBUTED_DATASYNC",
+        "usedScene": {
+          "ability": [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.GET_DISTRIBUTED_DEVICE_INFO",
+        "reason": "GET_DISTRIBUTED_DEVICE_INFO",
+        "usedScene": {
+          "ability": [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "com.huawei.permission.ACCESS_SERVICE_DM",
+        "reason": "ACCESS_SERVICE_DM",
+        "usedScene": {
+          "ability": [
+            "com.wearableJS.turkeyp3.MainAbility"
+          ],
+          "when": "always"
+        }
       }
     ],
     "distro": {
@@ -175,7 +206,15 @@
           "pages/mediaquery/mediaquery",
           "pages/datarequest/datarequest",
           "pages/networkAccess/networkAccess",
+<<<<<<< HEAD
           "pages/distributedCapability/distributedCapability"
+=======
+          "pages/dataStorage/dataStorage",
+          "pages/fileStorage/fileStorage",
+          "pages/distributedMigration/distributedMigration",
+          "pages/distributedCapability/distributedCapability",
+          "pages/distributedStart/distributedStart"
+>>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
         ],
         "name": "default",
         "window": {

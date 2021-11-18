@@ -1,8 +1,18 @@
 <stack class="stack" onswipe="touchMove">
     <div class="container">
         <div class="column">
+<<<<<<< HEAD
             <input class="startDistributed" type="button" value="Distributed Start Local"
                    onclick="doDistributeLocal"></input>
+=======
+
+            <input class="startDistributed" type="button" value="Distributed Start Local"
+                   onclick="doDistributeLocal"></input>
+
+            <input class="startDistributed" type="button" value="Distributed Start Remote"
+                   onclick="doDistributeRemote"></input>
+
+>>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
         </div>
     </div>
     <dialog id="showDialog" class="select-device-dialog">
