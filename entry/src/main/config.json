@@ -201,20 +201,15 @@
           "pages/systemcapabilities/systemcapabilities",
           "pages/timer/timer",
           "pages/vibration/vibration",
-          "pages/dataStorage/dataStorage",
           "pages/fileData/fileData",
           "pages/mediaquery/mediaquery",
           "pages/datarequest/datarequest",
           "pages/networkAccess/networkAccess",
-<<<<<<< HEAD
-          "pages/distributedCapability/distributedCapability"
-=======
           "pages/dataStorage/dataStorage",
           "pages/fileStorage/fileStorage",
           "pages/distributedMigration/distributedMigration",
           "pages/distributedCapability/distributedCapability",
           "pages/distributedStart/distributedStart"
->>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
         ],
         "name": "default",
         "window": {

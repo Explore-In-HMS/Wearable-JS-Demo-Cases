@@ -1,20 +1,19 @@
 import router from '@system.router'
 
 export default {
-
-    startDataStorage(){
+    startDataStorage() {
         router.push({
             uri: 'pages/dataStorage/dataStorage'
         });
     },
-    startFileStorage(){
+    startFileStorage() {
         router.push({
             uri: 'pages/fileStorage/fileStorage'
         });
     },
-    touchMove(e) {  // Handle the swipe event.
+    touchMove(e) { // Handle the swipe event.
 
-        if(e.direction == "right")  // Swipe right to exit.
+        if (e.direction == "right") // Swipe right to exit.
         {
             router.replace({
                 uri: 'pages/index/index'

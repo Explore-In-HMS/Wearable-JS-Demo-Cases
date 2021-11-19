@@ -8,6 +8,7 @@ export default {
     onInit() {
         var mMediaQueryList = mediaquery.matchMedia('(max-width: 460)');
         var _this = this;
+
         function maxWidthMatch(e) {
             if (e.matches) {
                 _this.matched = "yes";

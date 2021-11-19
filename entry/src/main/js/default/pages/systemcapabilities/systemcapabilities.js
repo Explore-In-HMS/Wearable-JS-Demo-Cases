@@ -1,7 +1,6 @@
 import router from '@system.router';
 
 export default {
-
     startAppManagement() {
         router.push({
             uri: 'pages/applicationmanagement/applicationmanagement'
@@ -47,12 +46,12 @@ export default {
             uri: 'pages/notification/notification'
         });
     },
-    startGlobalization(){
-     router.push({
+    startGlobalization() {
+        router.push({
             uri: 'pages/globalization/globalization'
         });
     },
-    startMediaQuery(){
+    startMediaQuery() {
         router.push({
             uri: 'pages/mediaquery/mediaquery'
         });

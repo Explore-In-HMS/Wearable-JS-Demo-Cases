@@ -7,27 +7,32 @@
     width: 454px;
     height: 454px;
 }
+
 .notification-wrapper {
     width: 454px;
     height: 454px;
     align-items: center;
 }
+
 .notification-title {
     width: 454px;
     height: 40px;
     text-align: center;
     font-size: 20px;
 }
+
 .notification-item-btn {
     width: 150px;
     height: 40px;
     flex-direction: column;
 }
+
 .title {
     width: 200px;
     font-size: 30px;
     text-align: center;
 }
+
 .notificationBtn {
     margin-top: 10px;
     width: 150px;

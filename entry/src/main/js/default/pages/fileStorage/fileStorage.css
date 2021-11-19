@@ -3,6 +3,7 @@
     height: 466px;
     justify-content: center;
 }
+
 .container {
     flex-direction: column;
     justify-content: flex-start;
@@ -12,7 +13,7 @@
     background-color: transparent;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

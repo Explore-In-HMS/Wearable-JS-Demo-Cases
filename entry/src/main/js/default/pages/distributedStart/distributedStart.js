@@ -23,8 +23,6 @@ export default {
             console.log('cannot start browsing service, reason: ' + result.data);
         }
     },
-<<<<<<< HEAD
-=======
     async doDistributeRemote() {
         // @ts-ignore
         // Testing Dialog Component
@@ -50,7 +48,6 @@ export default {
             });
         }
     },
->>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
     async selectDevice(networkId) {
         this.$element('showDialog').close();
         let actionData = {
@@ -73,23 +70,13 @@ export default {
             });
         }
     },
-<<<<<<< HEAD
-    touchMove(e) {
+    touchMove(e) { // Handle the swipe event.
 
-        if (e.direction == "right") {
-=======
-    touchMove(e) {  // Handle the swipe event.
-
-        if(e.direction == "right")  // Swipe right to exit.
+        if (e.direction == "right") // Swipe right to exit.
         {
->>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
             router.replace({
                 uri: 'pages/distributedCapability/distributedCapability'
             })
         }
     }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1

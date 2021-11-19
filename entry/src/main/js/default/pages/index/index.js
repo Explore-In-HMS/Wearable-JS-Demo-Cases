@@ -27,21 +27,12 @@ export default {
             uri: 'pages/networkAccess/networkAccess'
         });
     },
-<<<<<<< HEAD
     startDistributedCapability() {
         router.push({
             uri: 'pages/distributedCapability/distributedCapability'
         });
     },
     appExit() { // Exit the application.
-=======
-    startDistributedCapability(){
-    router.push({
-            uri: 'pages/distributedCapability/distributedCapability'
-        });
-    },
-    appExit(){  // Exit the application.
->>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
         app.terminate();
     }
 }

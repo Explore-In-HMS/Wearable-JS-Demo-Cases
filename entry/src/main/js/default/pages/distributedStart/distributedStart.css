@@ -3,10 +3,7 @@
     height: 466px;
     justify-content: center;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
 .container {
     flex-direction: column;
     justify-content: center;
@@ -15,11 +12,7 @@
     height: 200px;
 }
 
-<<<<<<< HEAD
 .column {
-=======
-.column{
->>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
     flex-direction: column;
     margin: 10px;
 }
@@ -47,10 +40,7 @@
     height: 90%;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-=======
 
->>>>>>> 6bbe7efc8cc755ae6b4f5ce0b883c39d8a676ff1
 }
 
 .select-device-list {

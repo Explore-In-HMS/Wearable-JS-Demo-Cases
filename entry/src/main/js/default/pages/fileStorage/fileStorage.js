@@ -229,14 +229,14 @@ export default {
         file.rmdir({
             uri: 'internal://app/file',
             recursive: true,
-            success: function() {
+            success: function () {
                 prompt.showToast({
                     message: '"File" Directory Deleted.',
                     duration: 1000,
                 });
                 console.log('call rmdir success.');
             },
-            fail: function(data, code) {
+            fail: function (data, code) {
                 prompt.showToast({
                     message: data,
                     duration: 1000,

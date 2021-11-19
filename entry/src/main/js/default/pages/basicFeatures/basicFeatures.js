@@ -1,7 +1,6 @@
 import router from '@system.router';
 
 export default {
-
     startAnimation() {
         router.push({
             uri: 'pages/compassanimator/compassanimator'
@@ -22,9 +21,9 @@ export default {
             uri: 'pages/applicationconf/applicationconf'
         });
     },
-    touchMove(e) {  // Handle the swipe event.
+    touchMove(e) { // Handle the swipe event.
 
-        if(e.direction == "right")  // Swipe right to exit.
+        if (e.direction == "right") // Swipe right to exit.
         {
             router.replace({
                 uri: 'pages/index/index'

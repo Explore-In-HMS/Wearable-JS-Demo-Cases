@@ -8,13 +8,13 @@ apply plugin: 'com.huawei.ohos.decctest'
 ohos {
     signingConfigs {
         debug {
-            storeFile file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_5190090000024889177.p12')
-            storePassword '0000001823E4A9830D68CBF7FD42A1A9B74F33F1305205AD828B6F11C0DA1F05542DAFEAD0590BA9'
-            keyAlias = 'debugKey'
-            keyPassword '0000001892ECEE81E6E6FE4D6E715980279710A5C2A8165EDAF2ECA095CB45A57A3C48371BC6AAE7'
+            storeFile file('C:\\Users\\m00599114\\DevEcoStudioProjects\\WearableJSDemoApp\\wearableJSdemo.p12')
+            storePassword '0000001DA90AFDDD492E91DEE4FD9EA656684B49281B0CE415DDCA0BACCE80D2156C3E3F35B570AB43F07D9AB9'
+            keyAlias = 'wearableJSdemo'
+            keyPassword '0000001DDCFFFA3FB5A5F8ED33ACB54398DBDF4758540044FB155FE3F024283AC14320F33D28ACD434F92C4526'
             signAlg = 'SHA256withECDSA'
-            profile file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_turkeyp3_5190090000024889177.p7b')
-            certpath file('C:\\Users\\m00599114\\.ohos\\config\\auto_debug_5190090000024889177.cer')
+            profile file('C:\\Users\\m00599114\\DevEcoStudioProjects\\WearableJSDemoApp\\MatePad11Debug.p7b')
+            certpath file('C:\\Users\\m00599114\\DevEcoStudioProjects\\WearableJSDemoApp\\WearableJSDemoApp.cer')
         }
     }
 
@@ -33,8 +33,8 @@ ohos {
 
 }
 
-sonarqube{
-    properties{
+sonarqube {
+    properties {
         property "sonar.projectKey", "wearableJsDemoAppProject"
         property "sonar.projectName", "wearableJsDemoApp"
         property "sonar.login", "33e2d67013f4b32f0d99a66de5287b74e2e02a7f"

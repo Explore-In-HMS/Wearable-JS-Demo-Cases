@@ -4,7 +4,8 @@
             <text class="notification-title">Notification Message</text>
         </list-item>
         <list-item class="notification-item-btn">
-            <input class="notificationBtn" type="button" value="Get a notification" onclick="notificationAction"></input>
+            <input class="notificationBtn" type="button" value="Get a notification" onclick="notificationAction">
+            </input>
         </list-item>
     </list>
 </div>

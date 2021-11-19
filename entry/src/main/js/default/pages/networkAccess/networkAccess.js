@@ -1,15 +1,14 @@
 import router from '@system.router'
 
 export default {
-
-    startdatarequest(){
+    startdatarequest() {
         router.push({
             uri: 'pages/datarequest/datarequest'
         });
     },
-    touchMove(e) {  // Handle the swipe event.
+    touchMove(e) { // Handle the swipe event.
 
-        if(e.direction == "right")  // Swipe right to exit.
+        if (e.direction == "right") // Swipe right to exit.
         {
             router.replace({
                 uri: 'pages/index/index'

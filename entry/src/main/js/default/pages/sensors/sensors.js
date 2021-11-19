@@ -17,8 +17,8 @@ export default {
         });
     },
     startCompass() {
-        router.push ({
-            uri:'pages/compass/compass'
+        router.push({
+            uri: 'pages/compass/compass'
         })
     },
     startStep() {
@@ -32,7 +32,7 @@ export default {
         });
     },
     startAccelerometer() {
-        router.push ({
+        router.push({
             uri: 'pages/accelerometer/accelerometer'
         });
     },
@@ -50,5 +50,4 @@ export default {
             })
         }
     }
-
 }
